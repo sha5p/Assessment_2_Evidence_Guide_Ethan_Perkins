@@ -1,0 +1,172 @@
+[gd_scene load_steps=25 format=3 uid="uid://demnixuhjre71"]
+
+[ext_resource type="Script" path="res://Level_Scenes_objects/Enemys/enemy_script/shooting.gd" id="1_vpfy7"]
+[ext_resource type="Texture2D" uid="uid://b3c3thp10eys0" path="res://Level_Scenes_objects/Enemys/Enemy_Assests/goblin/goblin_idle_spritesheet.png" id="2_2vsik"]
+[ext_resource type="PackedScene" uid="uid://necfgffsuks4" path="res://Level_Scenes_objects/Enemys/Enemy_Scenes/Arrow.tscn" id="2_8bhjt"]
+[ext_resource type="Texture2D" uid="uid://ucd170hsm1h2" path="res://Level_Scenes_objects/Enemys/Enemy_Assests/Bow and Arrows.png" id="3_ks2ac"]
+[ext_resource type="Texture2D" uid="uid://b2h2f8ik3llan" path="res://Other_Game_Assests/effects (new)/enemy_afterdead_explosion_anim_f0.png" id="4_xds6b"]
+[ext_resource type="Texture2D" uid="uid://bhxk8n8pc0aoo" path="res://Other_Game_Assests/effects (new)/enemy_afterdead_explosion_anim_f1.png" id="5_dirbq"]
+[ext_resource type="Texture2D" uid="uid://cltpkp3mnn35n" path="res://Other_Game_Assests/effects (new)/enemy_afterdead_explosion_anim_f2.png" id="6_vd8y7"]
+[ext_resource type="Texture2D" uid="uid://c231e18j0lh7w" path="res://Other_Game_Assests/effects (new)/enemy_afterdead_explosion_anim_f3.png" id="7_2kb2h"]
+[ext_resource type="AudioStream" uid="uid://da5g5tsorqs4o" path="res://Sounds/Sounds_Assest/SFX/whoosh-transitions-sfx-01-118227.mp3" id="9_plcv4"]
+[ext_resource type="AudioStream" uid="uid://obakbmenjvbf" path="res://Sounds/Sounds_Assest/SFX/bow-loading-38752.mp3" id="10_36bi7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0cc5q"]
+atlas = ExtResource("2_2vsik")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_acf8k"]
+atlas = ExtResource("2_2vsik")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nuapi"]
+atlas = ExtResource("2_2vsik")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gbna7"]
+atlas = ExtResource("2_2vsik")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3a6ty"]
+atlas = ExtResource("2_2vsik")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oa4gv"]
+atlas = ExtResource("2_2vsik")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kj8c5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0cc5q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_acf8k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nuapi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gbna7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3a6ty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oa4gv")
+}],
+"loop": true,
+"name": &"Goblin idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_xds6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dirbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vd8y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2kb2h")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5u0b"]
+atlas = ExtResource("3_ks2ac")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ts8rx"]
+atlas = ExtResource("3_ks2ac")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uqifl"]
+atlas = ExtResource("3_ks2ac")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1g44n"]
+atlas = ExtResource("3_ks2ac")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iagq3"]
+atlas = ExtResource("3_ks2ac")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wcr85"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5u0b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ts8rx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uqifl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g44n")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iagq3")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cnwvd"]
+radius = 18.0
+height = 38.0
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_vpfy7")
+Arrow = ExtResource("2_8bhjt")
+
+[node name="Goblin_animation" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_kj8c5")
+animation = &"Goblin idle"
+autoplay = "Goblin idle"
+
+[node name="bow" type="AnimatedSprite2D" parent="Goblin_animation"]
+position = Vector2(5.5, 2.5)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_wcr85")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(219, 0)
+
+[node name="reload" type="Timer" parent="RayCast2D"]
+one_shot = true
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1, -1)
+shape = SubResource("CapsuleShape2D_cnwvd")
+
+[node name="Shoot" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_plcv4")
+bus = &"SFX"
+
+[node name="Reload" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("10_36bi7")
+volume_db = 3.0
+bus = &"SFX"
+
+[connection signal="timeout" from="RayCast2D/reload" to="." method="_on_reload_timeout"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

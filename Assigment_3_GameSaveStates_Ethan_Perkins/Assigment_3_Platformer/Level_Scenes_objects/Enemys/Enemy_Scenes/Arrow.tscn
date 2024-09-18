@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://necfgffsuks4"]
+
+[ext_resource type="Script" path="res://Level_Scenes_objects/Enemys/enemy_script/movin.gd" id="1_8ley0"]
+[ext_resource type="Texture2D" uid="uid://ucd170hsm1h2" path="res://Level_Scenes_objects/Enemys/Enemy_Assests/Bow and Arrows.png" id="1_o3ojs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ithta"]
+atlas = ExtResource("1_o3ojs")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vpork"]
+atlas = ExtResource("1_o3ojs")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nrvpd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ithta")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vpork")
+}],
+"loop": true,
+"name": &"Shooting",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6f40f"]
+size = Vector2(16, 7)
+
+[node name="Area2D" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_8ley0")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_nrvpd")
+animation = &"Shooting"
+frame_progress = 0.84652
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_6f40f")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

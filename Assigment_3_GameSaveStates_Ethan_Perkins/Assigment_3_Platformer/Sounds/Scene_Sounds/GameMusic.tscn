@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://esllj80tfyks"]
+
+[ext_resource type="AudioStream" uid="uid://bxwl67s52byxh" path="res://Sounds/Sounds_Assest/Music/lost-alone-mysterious-gentle-instrumental-175368.mp3" id="1_1bq0r"]
+[ext_resource type="Script" path="res://Sounds/Scripts_Sound/GameMusic.gd" id="2_e87l7"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_1bq0r")
+autoplay = true
+bus = &"Music"
+script = ExtResource("2_e87l7")
+
+[connection signal="finished" from="." to="." method="_on_finished"]
