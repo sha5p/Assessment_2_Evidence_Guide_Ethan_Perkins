@@ -1,0 +1,107 @@
+[gd_scene load_steps=9 format=3 uid="uid://dsukeg0hay6c1"]
+
+[ext_resource type="Texture2D" uid="uid://c8konfc6cjrs3" path="res://Visual/cartoon-space-background-4pttluty0wrv98vc.jpg" id="1_1ft4x"]
+[ext_resource type="Script" path="res://Scripts/restarting.cs" id="2_sp2bu"]
+[ext_resource type="Script" path="res://Scripts/Exit.cs" id="3_85lys"]
+[ext_resource type="Script" path="res://Scripts/Click.cs" id="3_s2xa5"]
+[ext_resource type="AudioStream" uid="uid://cxq5p0dytx121" path="res://sound/rclick-13693.mp3" id="4_58ov3"]
+[ext_resource type="AudioStream" uid="uid://1dyty35qlhgq" path="res://sound/loop-menu-preview-109594.mp3" id="6_4bg7n"]
+
+[sub_resource type="SystemFont" id="SystemFont_e7pc2"]
+font_names = PackedStringArray("Impact")
+
+[sub_resource type="SystemFont" id="SystemFont_6b2gu"]
+font_names = PackedStringArray("Impact")
+
+[node name="Main_Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -365.0
+offset_top = -575.0
+offset_right = 403.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_1ft4x")
+
+[node name="Click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_58ov3")
+volume_db = 10.0
+pitch_scale = 1.82
+script = ExtResource("3_s2xa5")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 60
+
+[node name="SeperatorNOTHin" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_e7pc2")
+theme_override_font_sizes/font_size = 64
+text = "Meteor Game"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 64
+alignment = 1
+
+[node name="SeperatorNOTHin" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="restarting" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(140, 38)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_6b2gu")
+theme_override_font_sizes/font_size = 24
+text = "Play"
+script = ExtResource("2_sp2bu")
+
+[node name="Exit" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(140, 38)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_6b2gu")
+theme_override_font_sizes/font_size = 24
+text = "Exit Game"
+script = ExtResource("3_85lys")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_4bg7n")
+autoplay = true
+
+[connection signal="button_down" from="MarginContainer/HBoxContainer/VBoxContainer/restarting" to="Click" method="_on_restarting_button_down"]
+[connection signal="button_down" from="MarginContainer/HBoxContainer/VBoxContainer/restarting" to="MarginContainer/HBoxContainer/VBoxContainer/restarting" method="_on_button_down"]
+[connection signal="button_down" from="MarginContainer/HBoxContainer/VBoxContainer/Exit" to="MarginContainer/HBoxContainer/VBoxContainer/Exit" method="_on_button_down"]

@@ -1,0 +1,145 @@
+[gd_scene load_steps=9 format=3 uid="uid://d384htropfvw5"]
+
+[ext_resource type="Script" path="res://Scripts/Death.cs" id="1_31kyt"]
+[ext_resource type="Texture2D" uid="uid://dfw07vlcoygtu" path="res://Visual/0ant018pba971.png" id="1_rgi8q"]
+[ext_resource type="Script" path="res://Scripts/Button1.cs" id="2_jlp1y"]
+[ext_resource type="Script" path="res://Scripts/Button2.cs" id="3_t1dfk"]
+[ext_resource type="AudioStream" uid="uid://cf1oqtck3n5ap" path="res://sound/game-over-arcade-6435.mp3" id="5_wrrlp"]
+
+[sub_resource type="SystemFont" id="SystemFont_rxaeb"]
+font_names = PackedStringArray("Impact")
+
+[sub_resource type="SystemFont" id="SystemFont_sxju5"]
+font_names = PackedStringArray("Impact")
+
+[sub_resource type="SystemFont" id="SystemFont_8lycf"]
+font_names = PackedStringArray("Impact")
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_31kyt")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_rgi8q")
+
+[node name="High" type="Label" parent="."]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 391.0
+offset_right = 700.0
+offset_bottom = 429.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_rxaeb")
+theme_override_font_sizes/font_size = 30
+text = "0"
+
+[node name="Current" type="Label" parent="."]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 494.0
+offset_right = 700.0
+offset_bottom = 532.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_rxaeb")
+theme_override_font_sizes/font_size = 30
+text = "0"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 60
+
+[node name="SeperatorNOTHin" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_sxju5")
+theme_override_font_sizes/font_size = 64
+text = "Game over"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 64
+alignment = 1
+
+[node name="SeperatorNOTHin" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button1" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(140, 38)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_8lycf")
+theme_override_font_sizes/font_size = 24
+text = "Retry"
+script = ExtResource("2_jlp1y")
+
+[node name="Button2" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(140, 38)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_8lycf")
+theme_override_font_sizes/font_size = 24
+text = "Back to menu"
+script = ExtResource("3_t1dfk")
+
+[node name="HighScore" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_sxju5")
+theme_override_font_sizes/font_size = 30
+text = "High Score:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="YourScore" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_sxju5")
+theme_override_font_sizes/font_size = 30
+text = "Your Score:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_wrrlp")
+autoplay = true
+
+[connection signal="button_down" from="MarginContainer/HBoxContainer/VBoxContainer/Button1" to="MarginContainer/HBoxContainer/VBoxContainer/Button1" method="_on_button_down"]
+[connection signal="button_down" from="MarginContainer/HBoxContainer/VBoxContainer/Button2" to="MarginContainer/HBoxContainer/VBoxContainer/Button2" method="_on_button_down"]

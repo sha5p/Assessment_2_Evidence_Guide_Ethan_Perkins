@@ -1,0 +1,75 @@
+[gd_scene load_steps=9 format=3 uid="uid://fekqp8dh7b78"]
+
+[ext_resource type="Texture2D" uid="uid://dpelfrdvb3y44" path="res://Visual/Space-Invaders-PNG-Background.png" id="1_swr8u"]
+[ext_resource type="Script" path="res://Scripts/ShipCode.cs" id="2_b5fc1"]
+[ext_resource type="Script" path="res://Scripts/Gun.cs" id="3_8odiy"]
+[ext_resource type="PackedScene" uid="uid://2pmqrlcugqpd" path="res://bullet.tscn" id="4_2boyv"]
+[ext_resource type="Script" path="res://Scripts/Score.cs" id="5_digk2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_21oht"]
+radius = 313.954
+height = 651.163
+
+[sub_resource type="SystemFont" id="SystemFont_leelr"]
+font_names = PackedStringArray("Impact")
+subpixel_positioning = 0
+
+[sub_resource type="SystemFont" id="SystemFont_0ruws"]
+font_names = PackedStringArray("Impact")
+subpixel_positioning = 0
+
+[node name="Ship" type="Sprite2D"]
+position = Vector2(581.25, 320)
+rotation = 1.5708
+scale = Vector2(0.1, 0.086)
+texture = ExtResource("1_swr8u")
+script = ExtResource("2_b5fc1")
+
+[node name="ShipHitBox2" type="Area2D" parent="."]
+input_pickable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ShipHitBox2"]
+position = Vector2(50, -20.3491)
+shape = SubResource("CapsuleShape2D_21oht")
+
+[node name="Gun2" type="Node2D" parent="."]
+position = Vector2(-3199.98, 6758.73)
+rotation = -1.5708
+scale = Vector2(11.6279, 10)
+script = ExtResource("3_8odiy")
+BulletScene = ExtResource("4_2boyv")
+
+[node name="Score" type="CanvasLayer" parent="."]
+script = ExtResource("5_digk2")
+
+[node name="Score" type="Label" parent="Score"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -21.5
+offset_right = 21.5
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_fonts/font = SubResource("SystemFont_leelr")
+theme_override_font_sizes/font_size = 32
+text = "Score:"
+
+[node name="ScoreLabel" type="Label" parent="Score"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 51.0
+offset_right = 127.0
+offset_bottom = 40.0
+grow_horizontal = 2
+theme_override_fonts/font = SubResource("SystemFont_0ruws")
+theme_override_font_sizes/font_size = 32
+text = "0"
+
+[node name="UpdateScore" type="Timer" parent="."]
+wait_time = 0.25
+autostart = true
+
+[connection signal="area_entered" from="ShipHitBox2" to="Score" method="_on_ship_hit_box_2_area_entered"]
+[connection signal="timeout" from="UpdateScore" to="." method="_on_update_score_timeout"]
+[connection signal="timeout" from="UpdateScore" to="Score" method="_on_update_score_timeout"]

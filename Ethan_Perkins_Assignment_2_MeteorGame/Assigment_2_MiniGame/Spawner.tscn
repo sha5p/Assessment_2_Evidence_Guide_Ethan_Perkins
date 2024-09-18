@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dq4wjl4164ak4"]
+
+[ext_resource type="Script" path="res://Scripts/Spawn.cs" id="1_hpv4w"]
+
+[sub_resource type="Curve2D" id="Curve2D_oc3ug"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, 4, 0, 0, 0, 0, 1153, 7, 0, 0, 0, 0, 1153, 646, 0, 0, 0, 0, 0, 646, 0, 0, 0, 0, -3, 7)
+}
+point_count = 5
+
+[node name="Spawn" type="Node2D"]
+script = ExtResource("1_hpv4w")
+metadata/_edit_vertical_guides_ = [45.0, -110.0]
+
+[node name="Spawn timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_oc3ug")
+
+[node name="Around" type="PathFollow2D" parent="Path2D"]
+position = Vector2(-3, 4)
+rotation = 0.00259515
+
+[connection signal="timeout" from="Spawn timer" to="." method="_on_spawn_timer_timeout"]
