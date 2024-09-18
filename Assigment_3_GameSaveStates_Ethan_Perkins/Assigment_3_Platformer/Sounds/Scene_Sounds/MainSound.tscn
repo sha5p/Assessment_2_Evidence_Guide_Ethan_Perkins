@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://iuwx8n4qg2f2"]
-
-[ext_resource type="Script" path="res://Sounds/Scripts_Sound/rain_sound.gd" id="1_tvlkq"]
-
-[node name="Rain Sound" type="AudioStreamPlayer2D"]
-script = ExtResource("1_tvlkq")
