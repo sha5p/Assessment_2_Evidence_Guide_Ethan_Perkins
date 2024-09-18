@@ -8,7 +8,7 @@ This document will highlight how each topic has been improved apon over iteratio
 |:-----|:-----|
 |Design|Enemy Design, Player Design, Level Design, UI Design|
 |Saves|Writing Files, Reading Files, Using Files|
-|Branching Choices|Code Decisions, UI decisions, Dialogue Decisions|
+|Branching Choices[|Code Decisions](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices),[ UI decisions](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Dialogue_Shop.gd), [Dialogue Decisions](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Dialogue_branching_Evidence.md)|
 |Documentation|**Independent Research of functions**, Research of game design, Analysis of technology theories|
 
 |Done on each Core aspect|Topics|
