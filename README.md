@@ -6,11 +6,16 @@ This document will highlight how each topic has been improved apon over iteratio
 
 |Core aspects of development|Branches|
 |:-----|:-----|
-|Design||
-|Saves||
-|Branching Choices||
-|Documentation||
+|Design|Enemy Design, Player Design, Level Design, UI Design|
+|Saves|Writing Files, Reading Files, Using Files|
+|Branching Choices|Code Decisions, UI decisions, Dialogue Decisions|
+|Documentation|**Independent Research of functions**, Research of game design, Analysis of technology theories|
 
-|Reflection|
+|Done on each Core aspect|Topics|
 |:----|
-|Contains a Synthesis to highlight how projects have built on them selves, Learning from this assesment , **Independent Research**, Ethical issues and Conclusion|
+|Display|knowledge, comprehension and application|
+|Reflection|Contains a Synthesis to highlight how projects have built on them selves, **Independent Research**|
+
+|Conclusion|
+|:----|
+|Learning from this assesment, Ethical issues and Conclusion|
