@@ -12,7 +12,7 @@ This document will highlight how each topic has been improved apon over iteratio
 |Documentation|**Independent Research of functions**, Research of game design, Analysis of technology theories|
 
 |Done on each Core aspect|Topics|
-|:----|
+|:----|:------|
 |Display|knowledge, comprehension and application|
 |Reflection|Contains a Synthesis to highlight how projects have built on them selves, **Independent Research**|
 
