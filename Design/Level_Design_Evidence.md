@@ -8,7 +8,6 @@
 |Dungon Game|
 |:-----|
 |![image](https://github.com/user-attachments/assets/cc6e70e9-fe64-4674-8176-3ddf3f239f43)|
-|![image](https://github.com/user-attachments/assets/71596754-976b-47fd-9b8a-be192d1db57b)|
 |![image](https://github.com/user-attachments/assets/075a29e3-e853-4e71-bfa5-a8eeb4d9757b)|
 |![image](https://github.com/user-attachments/assets/73f33b70-17a7-4550-a789-79e8468b57fd)|
 
