@@ -25,6 +25,9 @@ This document will highlight how each topic has been improved apon over iteratio
 The composition of the assessments 
 ### Player Design
 
+The mini-game assessment was the first game that had a ‘player’ allowing the user to interact with the game. This was done by referring to the mouse via pre-built functions ```LookAt(mouseGlobalPosition);```. When [clicked](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/MiniGame_Player.cs), ```if (Input.IsActionJustPressed("click") && time_until_fire > _fireRate)``` another prebuilt function is used to let the user interact with the game. 
+
+
 ### Enemy Design
 
 ### UI Design
