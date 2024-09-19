@@ -20,7 +20,7 @@ This document will highlight how each topic has been improved apon over iteratio
 |:----|
 |Learning from this assesment, Ethical issues and Conclusion|
 
-## **Design** _- The composition of the assessments_ 
+## **Design** _- The composition of the assessments_  WHY NOT WHAT
 
 
 ### [Player Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Player%20Design)
