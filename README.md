@@ -22,11 +22,7 @@ This document will highlight how each topic has been improved apon over iteratio
 
 ## **Design** 
 
-
-Name	Last commit message	Last commit date
-parent directory
-..
-
+The composition of the assessments 
 ### Player Design
 
 ### Enemy Design
