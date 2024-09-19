@@ -1,5 +1,5 @@
 # Evidence Guide Ethan_Perkins
-
+. is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects 
 ## Navigation 
 
 This document will highlight how each topic has been improved apon over iteration considering users perspective, feedback, future designs and implementation of alternative solutions. 
@@ -20,9 +20,9 @@ This document will highlight how each topic has been improved apon over iteratio
 |:----|
 |Learning from this assesment, Ethical issues and Conclusion|
 
-## **Design** 
+## **Design** _The composition of the assessments_ 
 
-The composition of the assessments 
+
 ### [Player Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Player%20Design)
 
 The mini-game assessment was the first game that had a ‘player’ allowing the user to interact with the game. This was done by referring to the mouse via pre-built functions ```LookAt(mouseGlobalPosition);```. When [clicked](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/MiniGame_Player.cs), ```if (Input.IsActionJustPressed("click") && time_until_fire > _fireRate)``` another prebuilt function is used to let the user attack enemys and interact with the game. Inital Player designs used simple functions and alternative solutions would just create unessaryly blocky code however building upon these basic functions that reference the keyboard the SaveStates game contained a '[player](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Player.gd)' with many more functions. Adding movment and a dash effect via the inbuilt velocity system in the [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.-,Description,physics%20bodies%20in%20their%20path.) node. The prebuilt velocity system was then altered depending on the input that the user gave 
@@ -49,12 +49,15 @@ then increasing the velocity when dashed. However the [weapon](https://github.co
 			rail_gun.visible=false
 			bazoka.visible=false
 ```
+would have changed and instead used a for loop this was done done due to time constraints but with the already present code that could be altered would make it achivable. Upon further look on all the types of 'player' designs a conclusion can be made that on future player designs as a whole that making the player not only look like they fit with the levels and interact with the levels but base the players designed and the surronding enviorment to further increase immersion for the user. 
 
-### Enemy Design
+### Level Desgin 
+
+
 
 ### UI Design
 
-### Level Desgin 
+
 
 
 ## **Saves** 
