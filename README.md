@@ -22,6 +22,20 @@ This document will highlight how each topic has been improved apon over iteratio
 
 ## **Design** 
 
+
+Name	Last commit message	Last commit date
+parent directory
+..
+
+### Player Design
+
+### Enemy Design
+
+### UI Design
+
+### Level Desgin 
+
+
 ## **Saves** 
 
 ## **Branching Choices**
