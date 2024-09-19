@@ -90,13 +90,29 @@ To further expand on 2D enemy designs and improve levels combinding these save s
 ### UI Design
 UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) the data. Then modulated settings code was implmented and simply itterated over in each assesment to add addtional features from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
 
+## **Branching Choices**
+
+### Dialogue
+-dialogue
+
+### Selections
+-shop
+-pizza
+
 
 ## **Saves** 
 
-## **Branching Choices**
+-file writing pizza
+-file writing save states
+-alter game
+-file writing modulated (last)
 
 
 ## **Documentation** 
+-improvments on analysis 
+-gathing data for games
+-data for code
+-dislaying data and recording data
 
 ## **Conclusion** 
 
