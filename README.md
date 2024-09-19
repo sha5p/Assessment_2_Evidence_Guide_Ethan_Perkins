@@ -1,4 +1,4 @@
-# Evidence Guide Ethan_Perkins
+# Evidence Guide Ethan_Perkins Questions **evaluation **
 . is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects 
 ## Navigation 
 
@@ -53,7 +53,7 @@ would have changed and instead used a for loop this was done done due to time co
 
 ### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
-The design of levels go hand to hand with player deisgn from obstuclues to assest presentation and a constant theme. The mini-games level design centered around space with the background and obstuclues (enemys) staying in the constant theme. 
+The design of levels go hand to hand with player deisgn from obstuclues to assest presentation and a constant [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). The mini-games level design centered around space with the background and obstuclues (enemys) staying in the constant [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). 
 ![image](https://github.com/user-attachments/assets/198e1bec-3f0d-4e01-bcb5-ac86a955bd82)
 The level for this game was infinite using a [spawning](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/MiniGame_Spawn.cs) system to constantly present the user with obstcules. This system was based on the [godot docs](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs) c# is used to get a random refrence on the 2D path and instantiating meteors or basic enemys. 
 ```
@@ -71,9 +71,21 @@ The level for this game was infinite using a [spawning](https://github.com/sha5p
 		if (pathFollow == null)
 ```
 The meteors then go to the centre of the screen. Upon reflection on this code the design of the spawner should have been altered to increase in increments instead of just instansiateing the node to allow for increased difficulty. Addtionally the movment of the moteorwrite should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` to ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` to make the code more modutable. 
-
-
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to makeing a refrence ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` to make it more modutable. The levels sprites reamin constant with the [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) throughout however the enemys design evolve. In the Save States assesment when detected it would move into the player direction
+```
+if attack and $RayCast2D.is_colliding():
+		#Moves in the direction of player based on save state speed
+			var player = $"..".get_node("Player")
+			var num =(player.position.x - self.position.x)
+			if num <0:
+				$Goblin_animation.flip_h = true
+			num = num/SaveFile.g_data["bomb_attack_speed"]
+			velocity.x += (num)
+```
+Then depending on the save states data its speed would be [altered](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd). 
+Then before the next assesment reading on the godot forms indicated at a [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) creates prebuilt paths to the player instead of an inital direction. And so for the dialogic assesment the design the enemy was improved to incorporate path finding allowing the enemy to go around walls. 
+![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
+To further expand on 2D enemy designs and improve levels combinding these save states with the navigation agent to alter the users experience and make it enjoyable while making the game feel more alive. 
 ### UI Design
 
 
@@ -83,13 +95,16 @@ The meteors then go to the centre of the screen. Upon reflection on this code th
 
 ## **Branching Choices**
 
+
 ## **Documentation** 
 
 ## **Conclusion** 
 
 
-## Bib
+## Bib REFRENCE STYFAWFA
 
 https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.-,Description,physics%20bodies%20in%20their%20path. 19/09/2024
 
 https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs 
+
+https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html
