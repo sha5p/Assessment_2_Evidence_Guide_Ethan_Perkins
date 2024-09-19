@@ -86,9 +86,9 @@ Then depending on the save states data its speed would be [altered](https://gith
 Then before the next assesment reading on the godot forms indicated at a [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) creates prebuilt paths to the player instead of an inital direction. And so for the dialogic assesment the design the enemy was improved to incorporate path finding allowing the enemy to go around walls. 
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
 To further expand on 2D enemy designs and improve levels combinding these save states with the navigation agent to alter the users experience and make it enjoyable while making the game feel more alive. 
+
 ### UI Design
-
-
+UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) the data. Then modulated settings code was implmented and simply itterated over in each assesment to add addtional features from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
 
 
 ## **Saves** 
