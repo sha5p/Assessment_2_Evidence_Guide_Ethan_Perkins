@@ -90,22 +90,29 @@ To further expand on 2D enemy designs and improve levels combinding these save s
 ### UI Design
 UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) the data. Then modulated settings code was implmented and simply itterated over in each assesment to add addtional features from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
 
+## **Saves** 
+File writing to the computer is important for all assesments that have been conducted in this unit as it allows for storing data and using the information in the data. File writing first used to save the'[order](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)'that the user requested for their pizza. ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
+The save systems than evolved in the games by using the [data](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to change the save states. Global Varibles from the mini game assesment combinded with a pizza file writing system created enemys that would change based on data. Their attack speed running on presented data ```velocity.x=SaveFile.g_data["bomb_speed"]```. For efficency this [code](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) was modualted allowing it to be used on the dialogic assesment with a few tweaks which was done to let the user record their progress. Without File Writing the users work in the assesment would vanish and they would lose progress but with it data could be presented their experienced altered and with modualted code makes it efficent for me the devloper. Allowing for the user to feel 'progress' even if they close the game or die. 
+
+
+-file writing pizza
+-file writing save states
+-alter game
+-file writing modulated (last)
+
 ## **Branching Choices**
 
 ### Dialogue
 -dialogue
 
 ### Selections
+Giving the user multiple decisions was done to alter the users experience while the [design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#design---the-composition-of-the-assessments) is meant to immerse the player the choicies is designed to keep things fresh. Through the use multiple [inputs](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py)  
+
 -shop
 -pizza
 
 
-## **Saves** 
 
--file writing pizza
--file writing save states
--alter game
--file writing modulated (last)
 
 
 ## **Documentation** 
