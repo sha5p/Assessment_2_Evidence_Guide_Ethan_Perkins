@@ -1,4 +1,4 @@
-# Evidence Guide Ethan_Perkins Questions **evaluation **
+# Evidence Guide Ethan_Perkins Questions **TRANSFER to NEXT **
 . is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects 
 ## Navigation 
 
@@ -20,7 +20,7 @@ This document will highlight how each topic has been improved apon over iteratio
 |:----|
 |Learning from this assesment, Ethical issues and Conclusion|
 
-## **Design** _- The composition of the assessments_  WHY NOT WHAT
+## **Design** _- The composition of the assessments_  WHY NOT WHAT  To further look into future modulated implmentations 
 
 
 ### [Player Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Player%20Design)
@@ -90,10 +90,9 @@ To further expand on 2D enemy designs and improve levels combinding these save s
 ### UI Design
 UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) the data. Then modulated settings code was implmented and simply itterated over in each assesment to add addtional features from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
 
-## **Saves** 
+## **Saves** -ALTERNATIVE SOLUTION
 File writing to the computer is important for all assesments that have been conducted in this unit as it allows for storing data and using the information in the data. File writing first used to save the'[order](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)'that the user requested for their pizza. ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
 The save systems than evolved in the games by using the [data](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to change the save states. Global Varibles from the mini game assesment combinded with a pizza file writing system created enemys that would change based on data. Their attack speed running on presented data ```velocity.x=SaveFile.g_data["bomb_speed"]```. For efficency this [code](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) was modualted allowing it to be used on the dialogic assesment with a few tweaks which was done to let the user record their progress. Without File Writing the users work in the assesment would vanish and they would lose progress but with it data could be presented their experienced altered and with modualted code makes it efficent for me the devloper. Allowing for the user to feel 'progress' even if they close the game or die. 
-
 
 -file writing pizza
 -file writing save states
@@ -102,14 +101,29 @@ The save systems than evolved in the games by using the [data](https://github.co
 
 ## **Branching Choices**
 
-### Dialogue
--dialogue
+Save States gives the user a feeling of progress, Design immerses the user into the protect and **[options](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)** is done to allow the user to have a sense of choice. 
 
-### Selections
-Giving the user multiple decisions was done to alter the users experience while the [design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#design---the-composition-of-the-assessments) is meant to immerse the player the choicies is designed to keep things fresh. Through the use multiple [inputs](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py)  
+Giving the user multiple decisions was done to alter the users experience while the [design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#design---the-composition-of-the-assessments) is meant to immerse the player the choicies is designed to keep things fresh. Through the use multiple [inputs](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) The inputs were presented in by looping through diffrent inputs ``` while True:``` and then printing these inputs out to the user to present their options. However this caused a varity of long lines in codes 
+![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
+when branching decisions were then added to games in the last assesment it was done through both dialogue and a similar system to the pizza assesment via a shop system. However instead of going through multiple lines for loops were used instead to present the data
+```
+for i in range(5):
+		if select==i and select!=0:
+			currentItem=select
+			weapons.play(Global.items[currentItem]["Name"])
+			utlitys.visible=false
+			weapons.visible=true
+			item.text=Global.items[currentItem]["Name"]
+			des.text=Global.items[currentItem]["Des"]+"\n Cost "+"$"+str(Global.items[currentItem]["Cost"])
+			if Global.items[currentItem]["Name"]==Global.item[0]["Weapon"]:
+				print("wprks")
+				upgrade.visible=true
+```
+looping through the data as shown above allows the user to go through options while minimzing the code for the devloper. For future assesments when creating a branching outputs modulated code would be designed which would loop for a varible that contains interchagable data and then presents that to the user. Which would allow for more functionalty for possible choices in the assigment due dates. 
 
--shop
--pizza
+Addtional research outside of class led me to a this type of modualted system which I used for my dialogue assesment [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the assesment to present dialogue 'choices' further boosted my intreset to make a simialr systems in the future. Taking the knowlage I already have I would build it much like my save states modulated code allowing making slots of information interchagable. This could be done for a dialogue system by making a text file and then putting that text into a system which checks for chracters when reading it before putting the text onto txt nodes.
+
+
 
 
 
@@ -122,7 +136,7 @@ Giving the user multiple decisions was done to alter the users experience while 
 -dislaying data and recording data
 
 ## **Conclusion** 
-
+Ethical Ai/ Sprites stealing/copywrite stealing/addiction/ guilt/money 
 
 ## Bib REFRENCE STYFAWFA
 
@@ -131,3 +145,6 @@ https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:tex
 https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs 
 
 https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html
+
+
+https://github.com/dialogic-godot/dialogic 20/9/2024
