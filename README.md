@@ -147,7 +147,7 @@ Making games highlights a variety of ethical issues.
 -data for code
 -dislaying data and recording data
 
-## **Ethics** 
+## **Ethics**  alternative solutions
 Ethical Ai/ Sprites stealing/copywrite stealing/addiction/ guilt/money 
 
 The ethics of game devlopment have caused many discusses on ethical issues. An ongoing issue that has become more prominant over the recent years is data useage to form and devlop game making AI. This is because the AIs that create code and games such as **examples** and .... use data from other .... proof exmaplin to build these code makers. Addtionall in the industriy AI being trained on peoples code may take over the jobs of the people designing the code this is important to consider as .... I woudld also consider these work layoffs to be enthical in itself as 
