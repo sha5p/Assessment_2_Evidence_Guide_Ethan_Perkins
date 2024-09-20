@@ -158,7 +158,7 @@ Devlopers on the games such as myself adn coprate copanys incoprate many techniq
 to sumrise game devlopment as a whole has many ethical issues from ... to .. maybe topics 
 
 
-## Bib REFRENCE STYFAWFA
+## Bib REFRENCE STYFAWFA more data
 
 https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.-,Description,physics%20bodies%20in%20their%20path. 19/09/2024
 
