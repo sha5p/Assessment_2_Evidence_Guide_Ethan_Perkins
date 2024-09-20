@@ -1,5 +1,5 @@
 # Evidence Guide Ethan_Perkins Questions **TRANSFER to NEXT ** fix conclusion
-. is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects 
+. is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects WHY TRANFERED THROUGHOUT ASSESMENT BECAUSE OF FEEDBACK
 ## Navigation 
 
 This document will highlight how each topic has been improved apon over iteration considering users perspective, feedback, future designs and implementation of alternative solutions. 
