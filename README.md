@@ -1,4 +1,4 @@
-# Evidence Guide Ethan_Perkins Questions **TRANSFER to NEXT **
+# Evidence Guide Ethan_Perkins Questions **TRANSFER to NEXT ** fix conclusion
 . is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects 
 ## Navigation 
 
