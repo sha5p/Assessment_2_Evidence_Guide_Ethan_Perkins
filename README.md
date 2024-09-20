@@ -130,13 +130,27 @@ Addtional research outside of class led me to a this type of modualted system wh
 
 
 ## **Documentation** 
+The skills of documentation when recorded and evaluating code for different assessments has changed throughout this unit. Initially code would be analysised by simply coming up with alternative solutions to express why a spercific type of code of technique was choosen over another. This trend proceeded throught the first two assesments then comparisions were made refrenceing other games to justify why the techniques and product was made in that way in the first place. Hwoever **Feedback** requested for more direct comparisions in code and justification rather than speculation  ....... for the last assesment requests for /......so in the feture such techniques will be incoprated. assesment future
+
+Presenting this data evolved over the assesment tasks along with the analysis of the data itself. This was changed throughout as more feedback requested more **specific** parts of code rather than a broad range being analyised. The pizza assigment attached long blocks of code with zip files to express how the data was used and this trend follwed throught sesmester 1 but with an evoultion on how spercific the code became. Then in the branching assesment assigment from the multiple other assesments with each project increasing in size fixing errors that caused the game to break become harder and harder. To solve this the games files were uploaded and shown through github. This however showed a new issue through file naming which became more apparant in this assigment when gathering evidence to explore how techniques such as design, savesx, and branching decisions have evolved. On future assesments not only will I make this data easy to access but improve on naming so that ordering the data and managing it becomes easier. 
+
+
+
+**get proof**
+
+
+
+Making games highlights a variety of ethical issues.
+
 -improvments on analysis 
 -gathing data for games
 -data for code
 -dislaying data and recording data
 
-## **Conclusion** 
+## **Ethics** 
 Ethical Ai/ Sprites stealing/copywrite stealing/addiction/ guilt/money 
+
+The ethics of game devlopment have caused many discusses on ethical issues. An ongoing issue that has become more prominant over the years is data useage to form and devlop game making AI. This has become a situation that not only 
 
 ## Bib REFRENCE STYFAWFA
 
