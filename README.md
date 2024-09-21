@@ -46,9 +46,10 @@ would have instead used loops for fewer lines however due to time constraints th
 ### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
 The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assests shown below
+
 ![image](https://github.com/user-attachments/assets/198e1bec-3f0d-4e01-bcb5-ac86a955bd82)
 
-The level for this game was infinite using a [spawning](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/MiniGame_Spawn.cs) system to constantly present the user with obstcules. This system was based on the [godot docs](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs) c# is used to get a random refrence on the 2D path and instantiating meteors or basic enemys. 
+The mini-game was designed around a [spawning](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/MiniGame_Spawn.cs) system as it allows for constant meteors to attack the player. 
 ```
 	private void _on_spawn_timer_timeout()
 	{;
@@ -63,8 +64,8 @@ The level for this game was infinite using a [spawning](https://github.com/sha5p
 		var pathFollow = GetNode<PathFollow2D>("Path2D/Around");
 		if (pathFollow == null)
 ```
-The meteors then go to the centre of the screen. Upon reflection on this code the design of the spawner should have been altered to increase in increments instead of just instansiateing the node to allow for increased difficulty. Addtionally the movment of the moteorwrite should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to makeing a refrence ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` to make it more modutable. The levels sprites reamin constant with the [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) throughout however the enemys design evolve. In the Save States assesment when detected it would move into the player direction
+Upon reflection the spawnering systems design should have been altered to increase the amount of meteors spaned in increments rather than a constant rate. Addtionally the movment of the meteors should have been changed from 
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to makeing a refrence ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` for changeability. The use of sprites [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) reamin constant throughout each assesment. However the design of obstacles/enemies evolved to further immerse the player. For example enemies in the save states assesment use logic when attacking the player addtionally
 ```
 if attack and $RayCast2D.is_colliding():
 		#Moves in the direction of player based on save state speed
@@ -75,7 +76,7 @@ if attack and $RayCast2D.is_colliding():
 			num = num/SaveFile.g_data["bomb_attack_speed"]
 			velocity.x += (num)
 ```
-Then depending on the save states data its speed would be [altered](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd). 
+ depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#saves--alternative-solution) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd). 
 Then before the next assesment reading on the godot forms indicated at a [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) creates prebuilt paths to the player instead of an inital direction. And so for the dialogic assesment the design the enemy was improved to incorporate path finding allowing the enemy to go around walls. 
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
 To further expand on 2D enemy designs and improve levels combinding these save states with the navigation agent to alter the users experience and make it enjoyable while making the game feel more alive. 
