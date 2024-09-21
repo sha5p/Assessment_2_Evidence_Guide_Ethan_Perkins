@@ -64,8 +64,8 @@ The mini-game was designed around a [spawning](https://github.com/sha5p/Assessme
 		var pathFollow = GetNode<PathFollow2D>("Path2D/Around");
 		if (pathFollow == null)
 ```
-Upon reflection the spawnering systems design should have been altered to increase the amount of meteors spaned in increments rather than a constant rate. Addtionally the movment of the meteors should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to makeing a refrence ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` for changeability. The use of sprites [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) reamin constant throughout each assesment. However the design of obstacles/enemies evolved to further immerse the player. For example enemies in the save states assesment used detection to attack the player 
+Upon reflection the spawnering system's design should have been altered to increase the amount of meteors spaned in increments rather than a constant rate. Additionally, the movement of the meteors should have been changed from 
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to referring the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprites [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) reamin constant throughout each assesment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player
 ```
 if attack and $RayCast2D.is_colliding():
 		#Moves in the direction of player based on save state speed
@@ -76,14 +76,12 @@ if attack and $RayCast2D.is_colliding():
 			num = num/SaveFile.g_data["bomb_attack_speed"]
 			velocity.x += (num)
 ```
-depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#saves--alternative-solution) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd). However such a repetive design though initially immerse lacked replayability
-and so for the next assement using a [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) found on the godot read me form was used to find paths to the player instead of changing **direction FIX**. And so for the dialogic assesment to improve replayablity the enemys were changed to incoprate path finding. 
+depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#saves--alternative-solution) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd).  However, such a repetive design though initially immersed lacked replayability so for the next assement a 
+[Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) a feature found on the godot read my form was used to find paths to the player instead of changing direction. And so for the dialogic assessment to improve replayability the enemies were changed to incorporate pathfinding.
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
-To further expand on improve level design combinding these save states with the navigation agent to alter the users experience will be incoprated in the future assesments balancing the difficultiy of this new navigation. 
+To further expand on improved level design future assessments will combine the alteration enemies via save states with complex logic of balancing the difficulty of enemies with path finding.
 
-### UI Design
-UI design throughout each game dev assesment this is because modulated code was used and then iterated over in each [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). to add addtional features. This is espcially important as assesments countiue to increase efficency in time constrained assesments. In later assesments further iteration to improve the UI will be added such as incoprating a larger varity of settings to save depending on the game.
-
+UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). continue to increase in size and time constraints because of this each assessment will design more and more reusable core aspects.  
 
 ## **Saves** -ALTERNATIVE SOLUTION
 File writing to the computer is important for all assesments that have been conducted in this unit as it allows for storing data and using the information in the data. File writing first used to save the'[order](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)'that the user requested for their pizza. ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
