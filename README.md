@@ -152,14 +152,16 @@ Making games highlights a variety of ethical issues.
 ### Design- Sprites stealing/copywrite stealing/addiction/ 
 
 ### Documentation - AI Ethical Ai
-When considering ethical issues 
+These designs for games however though they immerse the player lead to a variety of ethical issues that can influence the user's well-being. A Game developer must monetise their product to make a living and so to ensure steady income implementations so that in-app purchases and advertisements are put into the game. A core example of such a product is Flappy Bird which caused “heavy addiction”(Bird, 2014) and so was closed down due to “guilt”(Bird, 2014). 
 
-The ethics of game devlopment have caused many discusses on ethical issues. An ongoing issue that has become more prominant over the recent years is data useage to form and devlop game making AI. This is because the AIs that create code and games such as **examples** and .... use data from other .... proof exmaplin to build these code makers. Addtionall in the industriy AI being trained on peoples code may take over the jobs of the people designing the code this is important to consider as .... I woudld also consider these work layoffs to be enthical in itself as 
+I believe that games designed in this way can be considered unethical as not only can games designed like this lead to addiction but certain games to violence. A prime example of this is Fortnite in which neuroscientists found large dopamine releases when children played the game. (Anon, n.d.). And with the game's prominent violent behaviours (Game, 2024) I believe young children's prolonged exposure to such products should be minimised. 
 
+However, I believe older people such games that cause addictions can be sold as like any addiction from drinking to smoking/vaping the choice should be made by each individual. However infringement of games from copying them such as the abundance of flapp bird games when the game closed down. (Dredge, 2014). I think that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. 
 
-Devlopers on the games such as myself adn coprate copanys incoprate many techniques such as these layoffs to ensure they make money. This is because like all industrys money is the goal and in dpoing so they have to make addictive games... make money/....
+Under the Intellectual property protection of video games, these forms of copyright from the artwork, scrips, sound effects and character design cannot be taken as they are “artistic work”(Pemberton, 2021). And so now a prominent problem but as AI becomes more and more prominent I believe that to stop such laws should be put i place. A simple solution to this issue is for whatever product the AI is trained on to be bought so that they use their products to make the AI. 
 
-to sumrise game devlopment as a whole has many ethical issues from ... to .. maybe topics 
+For my games in the future, I will try to implement solutions to minimize addictions, especially in regards to children. And continue to either create my assets or ensure that I follow the copyright rules under the products that I use. 
+
 
 
 ## Bib REFRENCE STYFAWFA more data
@@ -172,3 +174,15 @@ https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_nav
 
 
 https://github.com/dialogic-godot/dialogic 20/9/2024
+
+
+Bird, F. (2014). Salient PR. [online] Salient PR. Available at: https://salientpr.com/blog/therealstorybehindwhyflappybirdwasdeleted [Accessed 21 Sep. 2024].
+
+Anon, (n.d.). Fortnite Addiction – Knowles International. [online] Available at: https://knowlesinternational.com/fortnite-addiction/#:~:text=In%20a%20study%2C%20a%20neuroscientist.
+
+Dredge, S. (2014). Apple ban on Flappy Bird clones? Don’t tell Slappy Shark or Floppy Penguin. [online] the Guardian. Available at: https://www.theguardian.com/technology/2014/feb/17/flappy-bird-clones-apple-google [Accessed 21 Sep. 2024].
+
+‌Pemberton, S. (2021). [online] LegalVision. Available at: https://legalvision.com.au/intellectual-property-protection-video-games/ [Accessed 21 Sep. 2024].
+
+‌
+‌
