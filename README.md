@@ -84,13 +84,12 @@ To further expand on improved level design future assessments will combine the a
 UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). continue to increase in size and time constraints because of this each assessment will design more and more reusable core aspects.  
 
 ## **Saves**
-File writing to the computer is important for all assesments that have been conducted in this unit as it allows for storing data and using the information in the data. File writing first used to save the'[order](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)'that the user requested for their pizza. ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
-The save systems than evolved in the games by using the [data](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to change the save states. Global Varibles from the mini game assesment combinded with a pizza file writing system created enemys that would change based on data. Their attack speed running on presented data ```velocity.x=SaveFile.g_data["bomb_speed"]```. For efficency this [code](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) was modualted allowing it to be used on the dialogic assesment with a few tweaks which was done to let the user record their progress. Without File Writing the users work in the assesment would vanish and they would lose progress but with it data could be presented their experienced altered and with modualted code makes it efficent for me the devloper. Allowing for the user to feel 'progress' even if they close the game or die. 
+File writing to the computer is important for all assessments that have been conducted in this unit as it allows for storing data and using the information for future assessments. The pizza assessments incorporate  ‘[orders](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)’ writing to the files ```file.write(f"\n{value} {pizza} Pizza {size}  $"+str(value *int(Order[key[1]])))``` then 'presenting' this data in a txt file
+![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
+to the Pizzaiolo.
 
--file writing pizza
--file writing save states
--alter game
--file writing modulated (last)
+Then in a game design lens save states with the same [writing](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to file system allowed for saving progress and altering the user's experience. Such as changing the difficulty of an enemy  
+```velocity.x=SaveFile.g_data["bomb_speed"]```. Without File Writing the user's work in the game would vanish and without the feeling of ‘progress’ it would lack interest. The same applies if the enemies are too difficult which is why altering the enemy is important. Alternativly the difficulty of enemies could be changed as a whole but that in itself decreases varity and so future assessments will countiue to use saved data to engaged the user but try to additionally improve that type of data that can be stored to increase varity of the player.  
 
 ## **Branching Choices**
 
