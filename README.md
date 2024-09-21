@@ -94,9 +94,9 @@ Then in a game design lens save states with the same [writing](https://github.co
 
 Save States gives the user a feeling of progress, The Design immerses while different options create ‘[choice](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)’.
 
-Through the use multiple [inputs](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) presented through loops ``` while True:``` is done to allow the customor to choose. However this caused a varity of long lines in codes 
+Initially, choices were given by using ``` while True:```  loops however this caused excessively long lines of code
 ![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
-when branching decisions were then added to games in the last assesment it was done through both dialogue and a similar system to the pizza assesment via a shop system. However instead of going through multiple lines for loops were used instead to present the data
+so for the branching decisions assigment a similar system to the pizza assesment via a shop system. However instead of going through multiple lines of if staments dictonary loops were used instead 
 ```
 for i in range(5):
 		if select==i and select!=0:
@@ -110,9 +110,11 @@ for i in range(5):
 				print("wprks")
 				upgrade.visible=true
 ```
-looping through the data as shown above allows the user to go through options while minimzing the code for the devloper. For future assesments when creating a branching outputs modulated code would be designed which would loop for a varible that contains interchagable data and then presents that to the user. Which would allow for more functionalty for possible choices in the assigment due dates. 
+looping through the data as shown above allows the user to go through options while minimzing the code for the devloper. For future assesments when creating a branching outputs modulated code would be designed which would loop for a varible that contains interchagable data and then presents that to the user. Allowing for more options throughout the game to be made in a shorter time. 
 
-Addtional research outside of class led me to a this type of modualted system which I used for my dialogue assesment [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the assesment to present dialogue 'choices' further boosted my intreset to make a simialr systems in the future. Taking the knowlage I already have I would build it much like my save states modulated code allowing making slots of information interchagable. This could be done for a dialogue system by making a text file and then putting that text into a system which checks for chracters when reading it before putting the text onto txt nodes.
+Research outside of class led me to a this type of modualted system [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the dialogic assesment to present story 'choices'. 
+![c078f1d2-a62d-4fc4-b9aa-2da6b53eff78](https://github.com/user-attachments/assets/d22e4872-a055-4087-a70a-d7e7f68856a5)
+Taking the knowlage I already have I would build it much like my save states modulated code allowing making slots of information interchagable. This could be done for a dialogue system by making a text file and then putting that text into a system which checks for chracters when reading it before putting the text onto txt nodes.
 
 
 
