@@ -41,7 +41,7 @@ a design in changing velocity was done so that godots phsyics engine could run a
 			rail_gun.visible=false
 			bazoka.visible=false
 ```
-would have intead used for loops for less lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the [environment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#conclusion) to further increase immersion for the user.
+would have instead used loops for fewer lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the [environment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#conclusion) to further increase immersion for the user.
 
 ### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
