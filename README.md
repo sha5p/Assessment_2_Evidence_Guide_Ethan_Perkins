@@ -1,5 +1,5 @@
 # Evidence Guide Ethan_Perkins Questions **TRANSFER to NEXT ** fix conclusion
-. is to analysis and say how each project was used to build onto the next alternative solutions for those projects and lessons learnt from them all combined for future projects WHY TRANFERED THROUGHOUT ASSESMENT BECAUSE OF FEEDBACK
+
 ## Navigation 
 
 This document will highlight how each topic has been improved apon over iteration considering users perspective, feedback, future designs and implementation of alternative solutions. 
@@ -96,7 +96,7 @@ Save States gives the user a feeling of progress, The Design immerses while diff
 
 Initially, choices were given by using ``` while True:```  loops however this caused excessively long lines of code
 ![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
-so for the branching decisions assigment a similar system to the pizza assesment via a shop system. However instead of going through multiple lines of if staments dictonary loops were used instead 
+so for the branching decisions assignment a similar system to the pizza assessment via a shop system. However instead of going through multiple lines of if statements dictionary loops were used instead
 ```
 for i in range(5):
 		if select==i and select!=0:
@@ -110,13 +110,13 @@ for i in range(5):
 				print("wprks")
 				upgrade.visible=true
 ```
-looping through the data as shown above allows the user to go through options while minimzing the code for the devloper. For future assesments when creating a branching outputs modulated code would be designed which would loop for a varible that contains interchagable data and then presents that to the user. Allowing for more options throughout the game to be made in a shorter time. 
+looping through the data as shown above allows the user to go through options while minimizing the code for the developer. For future assessments when creating a branching output modulated code would be designed which would loop for a variable that contains interchangeable data and then present that to the user. Allowing for more options throughout the game to be made in a shorter time.
 
-Research outside of class led me to a this type of modualted system [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the dialogic assesment to present story 'choices'. 
+Research outside of class led me to this type of modulated system [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the dialogic assessment to present story 'choices'.
+
+
 ![c078f1d2-a62d-4fc4-b9aa-2da6b53eff78](https://github.com/user-attachments/assets/d22e4872-a055-4087-a70a-d7e7f68856a5)
-Taking the knowlage I already have I would build it much like my save states modulated code allowing making slots of information interchagable. This could be done for a dialogue system by making a text file and then putting that text into a system which checks for chracters when reading it before putting the text onto txt nodes.
-
-
+Taking the knowledge I already have I would build it much like my save states modulated code allowing making slots of information interchangeable. This could be done for a dialogue system by making a text file and then putting that text into a system that checks for characters when reading it before putting the text onto txt nodes.
 
 
 
