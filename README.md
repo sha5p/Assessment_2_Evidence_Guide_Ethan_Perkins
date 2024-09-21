@@ -92,9 +92,9 @@ Then in a game design lens save states with the same [writing](https://github.co
 
 ## **Branching Choices**
 
-Save States gives the user a feeling of progress, Design immerses the user into the protect and **[options](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)** is done to allow the user to have a sense of choice. 
+Save States gives the user a feeling of progress, The Design immerses while different options create ‘[choice](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)’.
 
-Giving the user multiple decisions was done to alter the users experience while the [design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#design---the-composition-of-the-assessments) is meant to immerse the player the choicies is designed to keep things fresh. Through the use multiple [inputs](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) The inputs were presented in by looping through diffrent inputs ``` while True:``` and then printing these inputs out to the user to present their options. However this caused a varity of long lines in codes 
+Through the use multiple [inputs](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) presented through loops ``` while True:``` is done to allow the customor to choose. However this caused a varity of long lines in codes 
 ![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
 when branching decisions were then added to games in the last assesment it was done through both dialogue and a similar system to the pizza assesment via a shop system. However instead of going through multiple lines for loops were used instead to present the data
 ```
