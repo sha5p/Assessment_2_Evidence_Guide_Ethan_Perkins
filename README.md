@@ -82,13 +82,8 @@ and so for the next assement using a [Navigation Agent Node](https://docs.godote
 To further expand on improve level design combinding these save states with the navigation agent to alter the users experience will be incoprated in the future assesments balancing the difficultiy of this new navigation. 
 
 ### UI Design
-UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) options to the player. Thein all godot assesments modulated code was used and  itterated over in each assesment to add addtional features. 
+UI design throughout each game dev assesment this is because modulated code was used and then iterated over in each [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). to add addtional features. This is espcially important as assesments countiue to increase efficency in time constrained assesments. In later assesments further iteration to improve the UI will be added such as incoprating a larger varity of settings to save depending on the game.
 
-
-
-
-
-from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
 
 ## **Saves** -ALTERNATIVE SOLUTION
 File writing to the computer is important for all assesments that have been conducted in this unit as it allows for storing data and using the information in the data. File writing first used to save the'[order](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)'that the user requested for their pizza. ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
