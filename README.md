@@ -88,8 +88,7 @@ File writing to the computer is important for all assessments that have been con
 ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
 to the Pizzaiolo.
 
-Then in a game design lens save states with the same [writing](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to file system allowed for saving progress and altering the user's experience. Such as changing the difficulty of an enemy  
-```velocity.x=SaveFile.g_data["bomb_speed"]```. Without File Writing the user's work in the game would vanish and without the feeling of ‘progress’ it would lack interest. The same applies if the enemies are too difficult which is why altering the enemy is important. Alternativly the difficulty of enemies could be changed as a whole but that in itself decreases varity and so future assessments will countiue to use saved data to engaged the user but try to additionally improve that type of data that can be stored to increase varity of the player.  
+Then in a game design lens save states with the same [writing](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to file system allowed for saving progress and altering the user's experience. Such as changing the difficulty of an enemy ```velocity.x=SaveFile.g_data["bomb_speed"]```. Without File Writing the user's progress would vanish reducing interest in the game. The same applies to the enemies which is why altering the enemy is foremost when making a game. Alternatively, the difficulty of enemies could be changed but that would decrease variety in itself so future assessments will continue to use saved data to engage the user but try to additionally improve the type of data that can be stored to increase the variety of the player.
 
 ## **Branching Choices**
 
