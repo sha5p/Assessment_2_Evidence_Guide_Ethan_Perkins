@@ -1,4 +1,4 @@
-# Evidence Guide Ethan_Perkins Questions **TRANSFER to NEXT ** fix conclusion
+# Evidence Guide Ethan Perkins 
 
 ## Navigation 
 
