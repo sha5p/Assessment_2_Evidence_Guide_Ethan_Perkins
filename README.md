@@ -1,4 +1,4 @@
-# Evidence Guide Ethan Perkins 
+	# Evidence Guide Ethan Perkins 
 
 ## Navigation 
 
@@ -123,22 +123,14 @@ Taking the knowledge I already have I would build it much like my save states mo
 
 
 ## **Documentation** 
-The skills of documentation when recorded and evaluating code for different assessments has changed throughout this unit. Initially code would be analysised by simply coming up with alternative solutions to express why a spercific type of code of technique was choosen over another. This trend proceeded throught the first two assesments then comparisions were made refrenceing other games to justify why the techniques and product was made in that way in the first place. Hwoever **Feedback** requested for more direct comparisions in code and justification rather than speculation  ....... for the last assesment requests for /......so in the feture such techniques will be incoprated. assesment future
 
-Presenting this data evolved over the assesment tasks along with the analysis of the data itself. This was changed throughout as more feedback requested more **specific** parts of code rather than a broad range being analyised. The pizza assigment attached long blocks of code with zip files to express how the data was used and this trend follwed throught sesmester 1 but with an evoultion on how spercific the code became. Then in the branching assesment assigment from the multiple other assesments with each project increasing in size fixing errors that caused the game to break become harder and harder. To solve this the games files were uploaded and shown through github. This however showed a new issue through file naming which became more apparant in this assigment when gathering evidence to explore how techniques such as design, savesx, and branching decisions have evolved. On future assesments not only will I make this data easy to access but improve on naming so that ordering the data and managing it becomes easier. 
+Presenting and analysing data throughout each assessment changed through assessments due to feedback given by teachers. The first assessment of a pizza system presented blocks upon blocks of code however upon feedback such presentation of data was [excessive](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Documentation/Assessment%20One%20(T)-Ethan%20PERKINS%20-%20Documentation.pdf) and unnecessary and so the next assignment used snipits of code. 
+![image](https://github.com/user-attachments/assets/0998052a-baa8-4260-8095-316669c373d9)
+In this assesment teachers suggested to improve on
+![image](https://github.com/user-attachments/assets/0ae9f164-b2c9-4782-acc3-7d81f5ba71ce)
+And so for the save states assigment every form of presentation outside of the documentation was linked for readiblity much like in this [repository](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main). 
+![image](https://github.com/user-attachments/assets/b4bb8790-43fd-4328-8d57-23fc9929ca63)
 
-
-
-**get proof**
-
-
-
-Making games highlights a variety of ethical issues.
-
--improvments on analysis 
--gathing data for games
--data for code
--dislaying data and recording data
 
 ## **Ethics**  alternative solutions
 
@@ -146,7 +138,7 @@ Making games highlights a variety of ethical issues.
 
 ### Documentation - AI Ethical Ai
 These designs for games however though they immerse the player lead to a variety of ethical issues that can influence the user's well-being. A Game developer must monetise their product to make a living and so to ensure steady income implementations so that in-app purchases and advertisements are put into the game. A core example of such a product is Flappy Bird which caused “heavy addiction”(Bird, 2014) and so was closed down due to “guilt”(Bird, 2014). 
-
+	
 I believe that games designed in this way can be considered unethical as not only can games designed like this lead to addiction but certain games to violence. A prime example of this is Fortnite in which neuroscientists found large dopamine releases when children played the game. (Anon, n.d.). And with the game's prominent violent behaviours (Game, 2024) I believe young children's prolonged exposure to such products should be minimised. 
 
 However, I believe older people such games that cause addictions can be sold as like any addiction from drinking to smoking/vaping the choice should be made by each individual. However infringement of games from copying them such as the abundance of flapp bird games when the game closed down. (Dredge, 2014). I think that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. 
