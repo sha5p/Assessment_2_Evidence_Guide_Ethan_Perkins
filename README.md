@@ -126,17 +126,19 @@ Taking the knowledge I already have I would build it much like my save states mo
 
 Presenting and analysing data throughout each assessment changed through assessments due to feedback given by teachers. The first assessment of a pizza system presented blocks upon blocks of code however upon feedback such presentation of data was [excessive](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Documentation/Assessment%20One%20(T)-Ethan%20PERKINS%20-%20Documentation.pdf) and unnecessary and so the next assignment used snipits of code. 
 ![image](https://github.com/user-attachments/assets/0998052a-baa8-4260-8095-316669c373d9)
+
 In this assesment teachers suggested to improve on
+
 ![image](https://github.com/user-attachments/assets/0ae9f164-b2c9-4782-acc3-7d81f5ba71ce)
+
 And so for the save states assigment every form of presentation outside of the documentation was linked for readiblity much like in this [repository](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main). 
+
 ![image](https://github.com/user-attachments/assets/b4bb8790-43fd-4328-8d57-23fc9929ca63)
+Feedback from the most recent assesment highlights an issue in which was further identified in this assesment in that though recording data and presenting it is important how to is recorded is just as an important topic  
+![image](https://github.com/user-attachments/assets/4cffe50b-b062-4c6f-9dba-e892bb086d04)
+on future assesments I will try to improve upon naming files so that gathering evidence and reusing code for later is less difficult that this assigment made it be. 
 
-
-## **Ethics**  alternative solutions
-
-### Design- Sprites stealing/copywrite stealing/addiction/ 
-
-### Documentation - AI Ethical Ai
+## **Ethics**  
 These designs for games however though they immerse the player lead to a variety of ethical issues that can influence the user's well-being. A Game developer must monetise their product to make a living and so to ensure steady income implementations so that in-app purchases and advertisements are put into the game. A core example of such a product is Flappy Bird which caused “heavy addiction”(Bird, 2014) and so was closed down due to “guilt”(Bird, 2014). 
 	
 I believe that games designed in this way can be considered unethical as not only can games designed like this lead to addiction but certain games to violence. A prime example of this is Fortnite in which neuroscientists found large dopamine releases when children played the game. (Anon, n.d.). And with the game's prominent violent behaviours (Game, 2024) I believe young children's prolonged exposure to such products should be minimised. 
@@ -149,7 +151,7 @@ For my games in the future, I will try to implement solutions to minimize addict
 
 
 
-## Bib REFRENCE STYFAWFA more data
+## Bib REFRENCE
 
 https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.-,Description,physics%20bodies%20in%20their%20path. 19/09/2024
 
