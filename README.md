@@ -65,7 +65,7 @@ The mini-game was designed around a [spawning](https://github.com/sha5p/Assessme
 		if (pathFollow == null)
 ```
 Upon reflection the spawnering systems design should have been altered to increase the amount of meteors spaned in increments rather than a constant rate. Addtionally the movment of the meteors should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to makeing a refrence ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` for changeability. The use of sprites [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) reamin constant throughout each assesment. However the design of obstacles/enemies evolved to further immerse the player. For example enemies in the save states assesment used logic  attacking the player via detection
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to makeing a refrence ```Vector2 centerPosition = GlobalRefrenceToPlayer.Posistion; ``` for changeability. The use of sprites [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) reamin constant throughout each assesment. However the design of obstacles/enemies evolved to further immerse the player. For example enemies in the save states assesment used detection to attack the player 
 ```
 if attack and $RayCast2D.is_colliding():
 		#Moves in the direction of player based on save state speed
@@ -76,13 +76,19 @@ if attack and $RayCast2D.is_colliding():
 			num = num/SaveFile.g_data["bomb_attack_speed"]
 			velocity.x += (num)
 ```
-depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#saves--alternative-solution) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd). However such a repetive design though immerse lacked replayability
-and so for the next assement using a [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) read on godot form would create paths to the player instead of just changing **direction FIX**. And so for the dialogic assesment to improve replayablity the enemys were changed to incoprate path finding. 
+depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#saves--alternative-solution) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd). However such a repetive design though initially immerse lacked replayability
+and so for the next assement using a [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) found on the godot read me form was used to find paths to the player instead of changing **direction FIX**. And so for the dialogic assesment to improve replayablity the enemys were changed to incoprate path finding. 
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
 To further expand on improve level design combinding these save states with the navigation agent to alter the users experience will be incoprated in the future assesments balancing the difficultiy of this new navigation. 
 
 ### UI Design
-UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) the data. Then modulated settings code was implmented and simply itterated over in each assesment to add addtional features from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
+UI design throughout each assesment had a constant layout throughout initally the pizza assesment going through for loops to [present](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Branching_Choices/Pizza_System_Choices.py) options to the player. Thein all godot assesments modulated code was used and  itterated over in each assesment to add addtional features. 
+
+
+
+
+
+from saveing the hot keys to altering the widows quality. However in the dialogue assesment the UI was altered to fit the theme of the [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md).
 
 ## **Saves** -ALTERNATIVE SOLUTION
 File writing to the computer is important for all assesments that have been conducted in this unit as it allows for storing data and using the information in the data. File writing first used to save the'[order](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)'that the user requested for their pizza. ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
