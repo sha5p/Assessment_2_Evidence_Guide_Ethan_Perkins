@@ -28,7 +28,7 @@ The first game the mini-game designed a ‘player’ by referring to the mouse v
 		elif $CurrentChracter.flip_h == false:
 			velocity.x = dashing* (Engine.time_scale / original_time_scale))
 ```
-a design in changing velocity was done so that godots phsyics engine could run all the logic for movment. However the  [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked varity for the user so alternativly I would have altered it by changing particals or sound to immerse the user. Because of this the next assesments [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) was given 'varity' to the [user](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Player.gd) allow multiple diffrent weapons to be choosen from have a varity of affects. If this assesment were to be re-assigned then constant refrences to varibles 
+a design in changing velocity was done so that godots phsyics engine could run all the logic for movment. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen having a variety. If this assessment were to be re-assigned then constant references to variables  
 ```
 	if Global.item[0]["Weapon"] =="LMG":
 			timer.wait_time=Global.items[4]["FireRate"]
@@ -41,8 +41,7 @@ a design in changing velocity was done so that godots phsyics engine could run a
 			rail_gun.visible=false
 			bazoka.visible=false
 ```
-would have changed using for loops rather then varibles however due to time constrants this was not done. For future assigments I would look to design a player that not only contains varity in movment and attack to immerse the player but to design the players based on the [levels](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#conclusion) enviorment to further increase immersion for the user. 
-
+would have intead used for loops for less lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the [environment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#conclusion) to further increase immersion for the user.
 
 ### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
