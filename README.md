@@ -88,13 +88,14 @@ File writing to the computer is important for all assessments that have been con
 ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
 to the Pizzaiolo.
 
-Then in a game design lens save states with the same [writing](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to file system allowed for saving progress and altering the user's experience. Such as changing the difficulty of an enemy ```velocity.x=SaveFile.g_data["bomb_speed"]```. Without File Writing the user's progress would vanish reducing interest in the game. The same applies to the enemies which is why altering the enemy is foremost when making a game. Alternatively, the difficulty of enemies could be changed but that would decrease variety in itself so future assessments will continue to use saved data to engage the user but try to additionally improve the type of data that can be stored to increase the variety of the player.
+Then in a game design lens saving states with the same [writing](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to the file system allowed for saving progress and altering the user's experience. Such as changing the difficulty of an enemy's ```velocity.x=SaveFile.g_data["bomb_speed"]```. Without File Writing the user's progress would vanish, reducing interest in the game. The same applies to the enemies which is why altering the enemy is foremost when making a game. Alternatively, the difficulty of enemies could be changed but that would decrease variety in itself so future assessments will continue to use saved data to engage the user but try to additionally improve the type of data that can be stored to increase the variety of the player.
+
 
 ## **Branching Choices**
 
 Save States gives the user a feeling of progress, The Design immerses while different options create ‘[choice](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)’.
 
-Initially, choices were given by using ``` while True:```  loops however this caused excessively long lines of code
+Initially, choices were given by using ```while True:```  loops however this caused excessively long lines of code
 ![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
 so for the branching decisions assignment a similar system to the pizza assessment via a shop system. However instead of going through multiple lines of if statements dictionary loops were used instead
 ```
@@ -110,7 +111,7 @@ for i in range(5):
 				print("wprks")
 				upgrade.visible=true
 ```
-looping through the data as shown above allows the user to go through options while minimizing the code for the developer. For future assessments when creating a branching output modulated code would be designed which would loop for a variable that contains interchangeable data and then present that to the user. Allowing for more options throughout the game to be made in a shorter time.
+looping through the data as shown above allows the user to go through options while minimising the code for the developer. For future assessments when creating a branching output modulated code would be designed which would loop for a variable that contains interchangeable data and then present that to the user. Allowing for more options throughout the game to be made in a shorter time.
 
 Research outside of class led me to this type of modulated system [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the dialogic assessment to present story 'choices'.
 
@@ -147,10 +148,9 @@ I believe that the infringement of games by copying successful launches such as 
 
 ![image](https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8)(Statista, n.d.)
 
-If AI continues to develop the gradient of job loss will continue to increase these jobs being taken off data that they made. 
+If AI continues to develop, the gradient of job loss will continue to increase with these jobs being taken off data that they made.
 
-To conclude ethics for my games in the future, I will try to implement solutions to minimize addictions, especially in regards to children. And continue to either create my assets or ensure that I follow the copyright rules under the products that I use. 
-
+To conclude ethics for my games in the future, I will try to implement solutions to minimise addictions, especially regarding children. And continue to either create my assets or ensure that I follow the copyright rules under the products that I use.
 
 
 ## Bibliography
