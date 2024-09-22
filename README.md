@@ -154,32 +154,24 @@ To conclude ethics for my games in the future, I will try to implement solutions
 
 
 ## Bib REFRENCE
-
-https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.-,Description,physics%20bodies%20in%20their%20path. 19/09/2024
-
-https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs 
-
-https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html
-
-
-https://github.com/dialogic-godot/dialogic 20/9/2024
-
+Anon, (n.d.). Fortnite Addiction – Knowles International. [online] Available at: https://knowlesinternational.com/fortnite-addiction/#:~:text=In%20a%20study%2C%20a%20neuroscientist.
 
 Bird, F. (2014). Salient PR. [online] Salient PR. Available at: https://salientpr.com/blog/therealstorybehindwhyflappybirdwasdeleted [Accessed 21 Sep. 2024].
 
-Anon, (n.d.). Fortnite Addiction – Knowles International. [online] Available at: https://knowlesinternational.com/fortnite-addiction/#:~:text=In%20a%20study%2C%20a%20neuroscientist.
-
 Dredge, S. (2014). Apple ban on Flappy Bird clones? Don’t tell Slappy Shark or Floppy Penguin. [online] the Guardian. Available at: https://www.theguardian.com/technology/2014/feb/17/flappy-bird-clones-apple-google [Accessed 21 Sep. 2024].
 
-‌Pemberton, S. (2021). [online] LegalVision. Available at: https://legalvision.com.au/intellectual-property-protection-video-games/ [Accessed 21 Sep. 2024].
+dialogic-godot (2024). GitHub - dialogic-godot/dialogic: 💬 Create Dialogs, Visual Novels, RPGs, and manage Characters with Godot to create your Game! [online] GitHub. Available at: https://github.com/dialogic-godot/dialogic.[Accessed 20 Sep. 2024].
 
+Godot Engine documentation. (2024). CharacterBody2D. [online] Available at: https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.- [Accessed 19 Sep. 2024].
+
+Godot Engine documentation. (2024). The main game scene. [online] Available at: https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs [Accessed 19 Sep. 2024].
+
+Godot Engine documentation. (2024). Using NavigationAgents. [online] Available at: https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html [Accessed 19 Sep. 2024].
+‌
 Long, N. (2022). Fall Guys clone Stumble Guys tops charts, racks up $21m+ revenue and 160m+ downloads to date. [online] Mobilegamer.biz. Available at: https://mobilegamer.biz/fall-guys-clone-stumble-guys-tops-charts-racks-up-21m-revenue-and-160m-downloads-to-date/. [Accessed 22 Sep. 2024].
+
+‌Pemberton, S. (2021). [online] LegalVision. Available at: https://legalvision.com.au/intellectual-property-protection-video-games/ [Accessed 21 Sep. 2024].
 
 Statista. (n.d.). Gaming layoffs worldwide 2024. [online] Available at: https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/.[Accessed 22 Sep. 2024].
 
 ‌Wikipedia Contributors (2024). 2023–2024 video game industry layoffs. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/2023%E2%80%932024_video_game_industry_layoffs#:~:text=One%20of%20the%20primary%20reasons [Accessed 22 Sep. 2024].
-
-‌
-‌
-‌
-‌
