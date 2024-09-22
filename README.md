@@ -28,7 +28,7 @@ The first game the mini-game designed a ‘player’ by referring to the mouse v
 		elif $CurrentChracter.flip_h == false:
 			velocity.x = dashing* (Engine.time_scale / original_time_scale))
 ```
-a design in changing velocity was done so that godots physics engine could run all the logic for movement. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen to have a variety. If this assessment were to be re-assigned then constant references to variables  
+a design in changing velocity was done so that godots physics engine could run all the logic for movement. These changes were necessary not only for immersion but also as the primary action in each of the games. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen to have a variety. If this assessment were to be re-assigned then constant references to variables  
 ```
 	if Global.item[0]["Weapon"] =="LMG":
 			timer.wait_time=Global.items[4]["FireRate"]
