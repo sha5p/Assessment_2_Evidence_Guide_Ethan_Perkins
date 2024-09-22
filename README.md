@@ -41,7 +41,7 @@ a design in changing velocity was done so that godots phsyics engine could run a
 			rail_gun.visible=false
 			bazoka.visible=false
 ```
-would have instead used loops for fewer lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the [environment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#conclusion) to further increase immersion for the user.
+would have instead used loops for fewer lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the environment to further increase immersion for the user.
 
 ### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
@@ -76,7 +76,7 @@ if attack and $RayCast2D.is_colliding():
 			num = num/SaveFile.g_data["bomb_attack_speed"]
 			velocity.x += (num)
 ```
-depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#saves--alternative-solution) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd).  However, such a repetive design though initially immersed lacked replayability so for the next assement a 
+depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd).  However, such a repetive design though initially immersed lacked replayability so for the next assement a 
 [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) a feature found on the godot read my form was used to find paths to the player instead of changing direction. And so for the dialogic assessment to improve replayability the enemies were changed to incorporate pathfinding.
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
 To further expand on improved level design future assessments will combine the alteration enemies via save states with complex logic of balancing the difficulty of enemies with path finding.
