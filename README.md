@@ -28,7 +28,7 @@ The first game the mini-game designed a ‘player’ by referring to the mouse v
 		elif $CurrentChracter.flip_h == false:
 			velocity.x = dashing* (Engine.time_scale / original_time_scale))
 ```
-a design in changing velocity was done so that godots phsyics engine could run all the logic for movment. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen having a variety. If this assessment were to be re-assigned then constant references to variables  
+a design in changing velocity was done so that godots physics engine could run all the logic for movement. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen to have a variety. If this assessment were to be re-assigned then constant references to variables  
 ```
 	if Global.item[0]["Weapon"] =="LMG":
 			timer.wait_time=Global.items[4]["FireRate"]
@@ -45,7 +45,7 @@ would have instead used loops for fewer lines however due to time constraints th
 
 ### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
-The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assests shown below
+The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented with along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assets are shown below
 
 ![image](https://github.com/user-attachments/assets/198e1bec-3f0d-4e01-bcb5-ac86a955bd82)
 
@@ -64,8 +64,8 @@ The mini-game was designed around a [spawning](https://github.com/sha5p/Assessme
 		var pathFollow = GetNode<PathFollow2D>("Path2D/Around");
 		if (pathFollow == null)
 ```
-Upon reflection the spawnering system's design should have been altered to increase the amount of meteors spaned in increments rather than a constant rate. Additionally, the movement of the meteors should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` getting a refrence to referring the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprites [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) reamin constant throughout each assesment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player
+Upon reflection the spawning system's design should have been altered to increase the amount of meteors spawned in increments rather than a constant rate. Additionally, the movement of the meteors should have been changed from 
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a reference to referring to the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprite [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) remains constant throughout each assessment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player
 ```
 if attack and $RayCast2D.is_colliding():
 		#Moves in the direction of player based on save state speed
@@ -76,12 +76,12 @@ if attack and $RayCast2D.is_colliding():
 			num = num/SaveFile.g_data["bomb_attack_speed"]
 			velocity.x += (num)
 ```
-depending on the [save states](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd).  However, such a repetive design though initially immersed lacked replayability so for the next assement a 
-[Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html) a feature found on the godot read my form was used to find paths to the player instead of changing direction. And so for the dialogic assessment to improve replayability the enemies were changed to incorporate pathfinding.
+depending on the [saved state](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd).  However, such a repetitive design though initially immersed lacked replayability so for the next assessment a 
+[Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html),  a feature found on the godot read my form was used to find paths to the player instead of changing direction. And so for the dialogic assessment to improve replayability the enemies were changed to incorporate pathfinding.
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
-To further expand on improved level design future assessments will combine the alteration enemies via save states with complex logic of balancing the difficulty of enemies with path finding.
+To further expand on improved level design future assessments will combine the alteration of enemies via save states with complex logic of balancing the difficulty of enemies with pathfinding.
 
-UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as [assesment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). continue to increase in size and time constraints because of this each assessment will design more and more reusable core aspects.  
+UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as an [assessment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). continue to increase in size and time constraints because of this each assessment will design more and more reusable core aspects.
 
 ## **Saves**
 File writing to the computer is important for all assessments that have been conducted in this unit as it allows for storing data and using the information for future assessments. The pizza assessments incorporate  ‘[orders](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)’ writing to the files ```file.write(f"\n{value} {pizza} Pizza {size}  $"+str(value *int(Order[key[1]])))``` then 'presenting' this data in a txt file
