@@ -139,17 +139,18 @@ Feedback from the most recent assessment highlights an issue in that was further
 on future assessments, I will try to improve upon naming files so that gathering evidence and reusing code for later is less difficult than this assignment made it be.
 
 ## **Ethics**  
-These designs for games however though they immerse the player lead to a variety of ethical issues that can influence the user's well-being. A Game developer must monetise their product to make a living and so to ensure steady income implementations so that in-app purchases and advertisements are put into the game. A core example of such a product is Flappy Bird which caused “heavy addiction”(Bird, 2014) and so was closed down due to “guilt”(Bird, 2014). 
-	
-I believe that games designed in this way can be considered unethical as not only can games designed like this lead to addiction but certain games to violence. A prime example of this is Fortnite in which neuroscientists found large dopamine releases when children played the game. (Anon, n.d.). And with the game's prominent violent behaviours (Game, 2024) I believe young children's prolonged exposure to such products should be minimised. 
+Games are made to engage the player though the constant engagement highlights a variety of ethical issues. Game developers need to monetise their products to make a living to have a constant income so Implementations such as in-app purchases and advertisements are put into the game. However to keep user retention they not only have to monetise their product but keep the users engaged with the product.  A core example of such a product is Flappy Bird which caused “heavy addiction”(Bird, 2014) and so was closed down due to “guilt”(Bird, 2014). 
 
-However, I believe older people such games that cause addictions can be sold as like any addiction from drinking to smoking/vaping the choice should be made by each individual. However infringement of games from copying them such as the abundance of flapp bird games when the game closed down. (Dredge, 2014). I think that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. 
+I am convinced that games designed to hook players and monetise them can be considered unethical as it's like any addiction from drinking to smoking/vaping. Though not as problematic as drugs such as addictions I think such practices should be minimised especially for children. A prime example of this is Fortnite in which neuroscientists found large dopamine releases when children played the game. (Anon, n.d.). With the game's prominent violent behaviours (Game, 2024) I believe young children's prolonged exposure to such products should be minimised especially games influencing behaviours such as violence and illegitimate practices.
 
-Under the Intellectual property protection of video games, these forms of copyright from the artwork, scrips, sound effects and character design cannot be taken as they are “artistic work”(Pemberton, 2021). And so now a prominent problem but as AI becomes more and more prominent I believe that to stop such laws should be put i place. A simple solution to this issue is for whatever product the AI is trained on to be bought so that they use their products to make the AI. 
+I believe that the infringement of games by copying successful launches such as Flappy Bird and Stumble Guys is also unethical. Stubble guys racking in over “peaking at £309k”(Long, 2022) daily revenue in a game that was not even their idea. I believe that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. Under the Intellectual property protection of video games, these forms of copyright from the artwork, scrips, sound effects and character design cannot be taken as they are “artistic work”(Pemberton, 2021). As AI becomes more and more prominent I believe that current issues in the industry such as layoffs due to “mergers and acquisitions” (Wikipedia Contributors, 2024). Trend counties to increase
 
-For my games in the future, I will try to implement solutions to minimize addictions, especially in regards to children. And continue to either create my assets or ensure that I follow the copyright rules under the products that I use. 
+![image](https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8)(Statista, n.d.)
 
-![image](https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8)
+If AI continues to develop the gradient of job loss will continue to increase these jobs being taken off data that they made. 
+
+To conclude ethics for my games in the future, I will try to implement solutions to minimize addictions, especially in regards to children. And continue to either create my assets or ensure that I follow the copyright rules under the products that I use. 
+
 
 
 ## Bib REFRENCE
@@ -175,6 +176,8 @@ Dredge, S. (2014). Apple ban on Flappy Bird clones? Don’t tell Slappy Shark or
 Long, N. (2022). Fall Guys clone Stumble Guys tops charts, racks up $21m+ revenue and 160m+ downloads to date. [online] Mobilegamer.biz. Available at: https://mobilegamer.biz/fall-guys-clone-stumble-guys-tops-charts-racks-up-21m-revenue-and-160m-downloads-to-date/. [Accessed 22 Sep. 2024].
 
 Statista. (n.d.). Gaming layoffs worldwide 2024. [online] Available at: https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/.[Accessed 22 Sep. 2024].
+
+‌Wikipedia Contributors (2024). 2023–2024 video game industry layoffs. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/2023%E2%80%932024_video_game_industry_layoffs#:~:text=One%20of%20the%20primary%20reasons [Accessed 22 Sep. 2024].
 
 ‌
 ‌
