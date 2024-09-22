@@ -167,7 +167,7 @@ Godot Engine documentation. (2024). CharacterBody2D. [online] Available at: http
 Godot Engine documentation. (2024). The main game scene. [online] Available at: https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html#spawning-mobs [Accessed 19 Sep. 2024].
 
 Godot Engine documentation. (2024). Using NavigationAgents. [online] Available at: https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html [Accessed 19 Sep. 2024].
-‌
+
 Long, N. (2022). Fall Guys clone Stumble Guys tops charts, racks up $21m+ revenue and 160m+ downloads to date. [online] Mobilegamer.biz. Available at: https://mobilegamer.biz/fall-guys-clone-stumble-guys-tops-charts-racks-up-21m-revenue-and-160m-downloads-to-date/. [Accessed 22 Sep. 2024].
 
 ‌Pemberton, S. (2021). [online] LegalVision. Available at: https://legalvision.com.au/intellectual-property-protection-video-games/ [Accessed 21 Sep. 2024].
