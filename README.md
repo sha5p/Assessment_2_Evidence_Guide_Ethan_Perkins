@@ -149,6 +149,7 @@ Under the Intellectual property protection of video games, these forms of copyri
 
 For my games in the future, I will try to implement solutions to minimize addictions, especially in regards to children. And continue to either create my assets or ensure that I follow the copyright rules under the products that I use. 
 
+![image](https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8)
 
 
 ## Bib REFRENCE
@@ -171,5 +172,11 @@ Dredge, S. (2014). Apple ban on Flappy Bird clones? Don’t tell Slappy Shark or
 
 ‌Pemberton, S. (2021). [online] LegalVision. Available at: https://legalvision.com.au/intellectual-property-protection-video-games/ [Accessed 21 Sep. 2024].
 
+Long, N. (2022). Fall Guys clone Stumble Guys tops charts, racks up $21m+ revenue and 160m+ downloads to date. [online] Mobilegamer.biz. Available at: https://mobilegamer.biz/fall-guys-clone-stumble-guys-tops-charts-racks-up-21m-revenue-and-160m-downloads-to-date/. [Accessed 22 Sep. 2024].
+
+Statista. (n.d.). Gaming layoffs worldwide 2024. [online] Available at: https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/.[Accessed 22 Sep. 2024].
+
+‌
+‌
 ‌
 ‌
