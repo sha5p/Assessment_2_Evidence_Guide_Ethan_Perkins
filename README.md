@@ -12,7 +12,7 @@ This document will highlight how each topic has been improved apon over iteratio
 |[Documentation](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#documentation)|[Development of analysis of technology theories](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Documentation)|
 |[Conclusion](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins?tab=readme-ov-file#conclusion)|Learning from this assesment, Ethical issues and Conclusion|
 
-## **Design** _- The composition of the assessments_  WHY NOT WHAT  To further look into future modulated implmentations 
+## **Design** 
 
 
 ### [Player Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Player%20Design)
@@ -153,7 +153,7 @@ To conclude ethics for my games in the future, I will try to implement solutions
 
 
 
-## Bib REFRENCE
+## Bibliography
 Anon, (n.d.). Fortnite Addiction – Knowles International. [online] Available at: https://knowlesinternational.com/fortnite-addiction/#:~:text=In%20a%20study%2C%20a%20neuroscientist.
 
 Bird, F. (2014). Salient PR. [online] Salient PR. Available at: https://salientpr.com/blog/therealstorybehindwhyflappybirdwasdeleted [Accessed 21 Sep. 2024].
