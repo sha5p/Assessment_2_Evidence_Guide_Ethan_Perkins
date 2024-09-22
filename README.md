@@ -81,7 +81,7 @@ depending on the [saved state](https://github.com/sha5p/Assessment_2_Evidence_Gu
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
 To further expand on improved level design future assessments will combine the alteration of enemies via save states with complex logic of balancing the difficulty of enemies with pathfinding.
 
-UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as an [assessment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md). continue to increase in size and time constraints because of this each assessment will design more and more reusable core aspects.
+UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as each [assessment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) continued to increase in size and time constraints pivoted to more reusable designs.
 
 ## **Saves**
 File writing to the computer is important for all assessments that have been conducted in this unit as it allows for storing data and using the information for future assessments. The pizza assessments incorporate  ‘[orders](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)’ writing to the files ```file.write(f"\n{value} {pizza} Pizza {size}  $"+str(value *int(Order[key[1]])))``` then 'presenting' this data in a txt file
