@@ -154,7 +154,7 @@ To conclude ethics for my games in the future, I will try to implement solutions
 
 
 ## Bibliography
-Anon, (n.d.). Fortnite Addiction – Knowles International. [online] Available at: https://knowlesinternational.com/fortnite-addiction/#:~:text=In%20a%20study%2C%20a%20neuroscientist.
+Anon, (n.d.). Fortnite Addiction – Knowles International. [online] Available at: https://knowlesinternational.com/fortnite-addiction/#:~:text=In%20a%20study%2C%20a%20neuroscientist.[Accessed 21 Sep. 2024].
 
 Bird, F. (2014). Salient PR. [online] Salient PR. Available at: https://salientpr.com/blog/therealstorybehindwhyflappybirdwasdeleted [Accessed 21 Sep. 2024].
 
