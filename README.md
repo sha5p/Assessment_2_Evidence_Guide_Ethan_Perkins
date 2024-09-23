@@ -96,7 +96,9 @@ Then in a game design lens saving states with the same [writing](https://github.
 Save States gives the user a feeling of progress, The Design immerses while different options create ‘[choice](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)’.
 
 Initially, choices were given by using ```while True:```  loops however this caused excessively long lines of code. 
+
 ![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
+
 Because of this the branching decisions assignment used a similar system to the pizza assessment via a shop system. However instead of going through multiple lines of if statements dictionary loops were used instead.
 ```
 for i in range(5):
@@ -115,8 +117,8 @@ By looping through the data as shown above the user can go through options while
 
 Research outside of class led me to this type of modulated system [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the dialogic assessment to present story 'choices'.
 
-
 ![c078f1d2-a62d-4fc4-b9aa-2da6b53eff78](https://github.com/user-attachments/assets/d22e4872-a055-4087-a70a-d7e7f68856a5)
+
 Taking the knowledge I already have I would build it much like my save states modulated code allowing making slots of information interchangeable. This could be done for a dialogue system by making a text file and then putting that text into a system that checks for characters when reading it before putting the text onto txt nodes.
 
 
