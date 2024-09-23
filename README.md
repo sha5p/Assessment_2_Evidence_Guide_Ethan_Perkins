@@ -2,7 +2,7 @@
 
 ## Navigation 
 
-This document will highlight how each topic has been improved upon over iteration considering users' perspectives, feedback, future designs and implementation of alternative solutions.
+This document will highlight how each topic has been improved upon over iterations. Considering users' perspectives, feedback, future designs and implementation of alternative solutions.
 
 |Core aspects of development|Branches|
 |:-----|:-----|
