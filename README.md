@@ -43,7 +43,7 @@ A design for changing velocity was done so that Godot's physics engine could run
 ```
 would have instead used loops for fewer lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the environment to further increase immersion for the user.
 
-### [Level Desgin ](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
+### [Level Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
 The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented with along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assets are shown below
 
