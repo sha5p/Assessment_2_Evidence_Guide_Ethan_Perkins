@@ -45,7 +45,7 @@ Due to time constraints looping through was not done as I considered it an elect
 
 ### [Level Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
-The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented with along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assets are shown below
+The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented with along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assets are shown below.
 
 ![image](https://github.com/user-attachments/assets/198e1bec-3f0d-4e01-bcb5-ac86a955bd82)
 
@@ -65,7 +65,7 @@ The mini-game was designed around a [spawning](https://github.com/sha5p/Assessme
 		if (pathFollow == null)
 ```
 Upon reflection the spawning system's design should have been altered to increase the amount of meteors spawned in increments rather than a constant rate. Additionally, the movement of the meteors should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` getting a reference to referring to the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprite [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) remains constant throughout each assessment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a reference to referring to the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprite [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) remains constant throughout each assessment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player	indicated below.
 ```
 if attack and $RayCast2D.is_colliding():
 		#Moves in the direction of player based on save state speed
@@ -76,7 +76,7 @@ if attack and $RayCast2D.is_colliding():
 			num = num/SaveFile.g_data["bomb_attack_speed"]
 			velocity.x += (num)
 ```
-depending on the [saved state](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd).  However, such a repetitive design though initially immersed lacked replayability so for the next assessment a 
+Depending on the [saved state](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Saves) data its speed would then [alter](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Enemy%20Design/SaveStates_Bommer.gd) however, such a repetitive design though initially immersed lacked replayability so for the next assessment a 
 [Navigation Agent Node](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html),  a feature found on the godot read my form was used to find paths to the player instead of changing direction. And so for the dialogic assessment to improve replayability the enemies were changed to incorporate pathfinding.
 ![9c90ba6a-a3cc-41e8-9279-a729504ccad2](https://github.com/user-attachments/assets/26a48e6e-553b-44c3-b6a7-a8f61099559d)
 To further expand on improved level design future assessments will combine the alteration of enemies via save states with complex logic of balancing the difficulty of enemies with pathfinding.
