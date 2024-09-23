@@ -128,6 +128,7 @@ Taking the knowledge I already have I would build it much like my save states mo
 ## **Documentation** 
 
 Presenting and analysing data throughout each assessment changed through assessments due to feedback given by teachers. The first assessment of a pizza system presented blocks upon blocks of code however upon feedback such presentation of data was [excessive](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Documentation/Assessment%20One%20(T)-Ethan%20PERKINS%20-%20Documentation.pdf) and unnecessary so the next assignment used snippets of code. 
+
 ![image](https://github.com/user-attachments/assets/0998052a-baa8-4260-8095-316669c373d9)
 
 In this assessment, my teacher suggested to improve upon the following.
@@ -138,6 +139,7 @@ And so for the save states assignment, every form of presentation outside of the
 
 ![image](https://github.com/user-attachments/assets/b4bb8790-43fd-4328-8d57-23fc9929ca63)
 Feedback from the most recent assessment highlights an issue in that was further identified in this assessment in that though recording data and presenting it is important how it is recorded is just as an important topic.
+
 ![image](https://github.com/user-attachments/assets/4cffe50b-b062-4c6f-9dba-e892bb086d04)
 
 So on future assessments, I will try to improve upon naming files so that gathering evidence and reusing code for later is less difficult than this assignment made it be.
