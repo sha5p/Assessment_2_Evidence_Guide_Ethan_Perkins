@@ -84,9 +84,9 @@ To further expand on improved level design future assessments will combine the a
 UI design throughout each game dev assessment remained consistent with small changes via modulated code. This is important as each [assessment](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) continued to increase in size and time constraints pivoted to more reusable designs.
 
 ## **Saves**
-File writing to the computer is important for all assessments that have been conducted in this unit as it allows for storing data and using the information for future assessments. The pizza assessments incorporate  ‘[orders](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)’ writing to the files ```file.write(f"\n{value} {pizza} Pizza {size}  $"+str(value *int(Order[key[1]])))``` then 'presenting' this data in a txt file
+File writing to the computer is important for all assessments that have been conducted in this unit as it allows for storing data and using the information for future assessments. The pizza assessments incorporate  ‘[orders](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/Assigment_1_Pizza_System_Saves_Ethan_Perkins%20-%20Copy.py)’ writing to the files ```file.write(f"\n{value} {pizza} Pizza {size}  $"+str(value *int(Order[key[1]])))``` then 'presenting' this data in a txt file to the Pizzaiolo.
+
 ![image](https://github.com/user-attachments/assets/38cbc8ce-af4e-46ba-8f90-503ac0bd9102)
-to the Pizzaiolo.
 
 Then in a game design lens saving states with the same [writing](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Saves/save_file.gd) to the file system allowed for saving progress and altering the user's experience. Such as changing the difficulty of an enemy's ```velocity.x=SaveFile.g_data["bomb_speed"]```. Without File Writing the user's progress would vanish, reducing interest in the game. The same applies to the enemies which is why altering the enemy is foremost when making a game. Alternatively, the difficulty of enemies could be changed but that would decrease variety in itself so future assessments will continue to use saved data to engage the user but try to additionally improve the type of data that can be stored to increase the variety of the player.
 
@@ -95,9 +95,9 @@ Then in a game design lens saving states with the same [writing](https://github.
 
 Save States gives the user a feeling of progress, The Design immerses while different options create ‘[choice](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Branching_Choices)’.
 
-Initially, choices were given by using ```while True:```  loops however this caused excessively long lines of code
+Initially, choices were given by using ```while True:```  loops however this caused excessively long lines of code. 
 ![image](https://github.com/user-attachments/assets/f63c140c-576d-4941-861f-460553d8db99)
-so for the branching decisions assignment a similar system to the pizza assessment via a shop system. However instead of going through multiple lines of if statements dictionary loops were used instead
+Because of this the branching decisions assignment used a similar system to the pizza assessment via a shop system. However instead of going through multiple lines of if statements dictionary loops were used instead.
 ```
 for i in range(5):
 		if select==i and select!=0:
@@ -111,7 +111,7 @@ for i in range(5):
 				print("wprks")
 				upgrade.visible=true
 ```
-looping through the data as shown above allows the user to go through options while minimising the code for the developer. For future assessments when creating a branching output modulated code would be designed which would loop for a variable that contains interchangeable data and then present that to the user. Allowing for more options throughout the game to be made in a shorter time.
+By looping through the data as shown above the user can go through options while minimising the code for the developer. For future assessments when creating a branching output modulated code would be designed which would loop for a variable that contains interchangeable data and then present that to the user. Allowing for more options throughout the game to be made in a shorter time.
 
 Research outside of class led me to this type of modulated system [dialogic](https://github.com/dialogic-godot/dialogic). Using such a system throughout the dialogic assessment to present story 'choices'.
 
