@@ -130,16 +130,17 @@ Taking the knowledge I already have I would build it much like my save states mo
 Presenting and analysing data throughout each assessment changed through assessments due to feedback given by teachers. The first assessment of a pizza system presented blocks upon blocks of code however upon feedback such presentation of data was [excessive](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Documentation/Assessment%20One%20(T)-Ethan%20PERKINS%20-%20Documentation.pdf) and unnecessary so the next assignment used snippets of code. 
 ![image](https://github.com/user-attachments/assets/0998052a-baa8-4260-8095-316669c373d9)
 
-In this assessment, my teacher suggested to improve upon
+In this assessment, my teacher suggested to improve upon the following.
 
 ![image](https://github.com/user-attachments/assets/0ae9f164-b2c9-4782-acc3-7d81f5ba71ce)
 
 And so for the save states assignment, every form of presentation outside of the documentation was linked for readability much like in this [repository](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main). 
 
 ![image](https://github.com/user-attachments/assets/b4bb8790-43fd-4328-8d57-23fc9929ca63)
-Feedback from the most recent assessment highlights an issue in that was further identified in this assessment in that though recording data and presenting it is important how it is recorded is just as an important topic
+Feedback from the most recent assessment highlights an issue in that was further identified in this assessment in that though recording data and presenting it is important how it is recorded is just as an important topic.
 ![image](https://github.com/user-attachments/assets/4cffe50b-b062-4c6f-9dba-e892bb086d04)
-on future assessments, I will try to improve upon naming files so that gathering evidence and reusing code for later is less difficult than this assignment made it be.
+
+So on future assessments, I will try to improve upon naming files so that gathering evidence and reusing code for later is less difficult than this assignment made it be.
 
 ## **Ethics**  
 Games are made to engage the player though the constant engagement highlights a variety of ethical issues. Game developers need to monetise their products to make a living to have a constant income so Implementations such as in-app purchases and advertisements are put into the game. However to keep user retention they not only have to monetise their product but keep the users engaged with the product.  A core example of such a product is Flappy Bird which caused “heavy addiction”(Bird, 2014) and so was closed down due to “guilt”(Bird, 2014). 
