@@ -151,7 +151,7 @@ I am convinced that games designed to hook players and monetise them can be cons
 
 I believe that the infringement of games by copying successful launches such as Flappy Bird and Stumble Guys is also unethical. Stubble guys racking in over “peaking at £309k”(Long, 2022) daily revenue in a game that was not even their idea. I believe that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. Under the Intellectual property protection of video games, these forms of copyright from the artwork, scrips, sound effects and character design cannot be taken as they are “artistic work”(Pemberton, 2021). As AI becomes more and more prominent I believe that current issues in the industry such as layoffs due to “mergers and acquisitions” (Kim, 2023) Trend counties to increase
 
-![image](https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8)(Statista, n.d.)
+<img src="https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8" width=800 height=400> (Statista, n.d.)
 
 If AI continues to develop, the gradient of job loss will continue to increase with these jobs being taken off data that they made.
 
