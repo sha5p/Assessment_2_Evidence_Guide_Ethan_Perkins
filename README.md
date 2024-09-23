@@ -144,7 +144,7 @@ Games are made to engage the player though the constant engagement highlights a 
 
 I am convinced that games designed to hook players and monetise them can be considered unethical as it's like any addiction from drinking to smoking/vaping. Though not as problematic as drugs such as addictions I think such practices should be minimised especially for children. A prime example of this is Fortnite in which neuroscientists found large dopamine releases when children played the game. (Anon, n.d.). With the game's prominent violent behaviours (Game, 2024) I believe young children's prolonged exposure to such products should be minimised especially games influencing behaviours such as violence and illegitimate practices.
 
-I believe that the infringement of games by copying successful launches such as Flappy Bird and Stumble Guys is also unethical. Stubble guys racking in over “peaking at £309k”(Long, 2022) daily revenue in a game that was not even their idea. I believe that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. Under the Intellectual property protection of video games, these forms of copyright from the artwork, scrips, sound effects and character design cannot be taken as they are “artistic work”(Pemberton, 2021). As AI becomes more and more prominent I believe that current issues in the industry such as layoffs due to “mergers and acquisitions” (Wikipedia Contributors, 2024). Trend counties to increase
+I believe that the infringement of games by copying successful launches such as Flappy Bird and Stumble Guys is also unethical. Stubble guys racking in over “peaking at £309k”(Long, 2022) daily revenue in a game that was not even their idea. I believe that this becomes even worse when AI trains on un-bought data to design games from art and sound to coding and making whole products. Under the Intellectual property protection of video games, these forms of copyright from the artwork, scrips, sound effects and character design cannot be taken as they are “artistic work”(Pemberton, 2021). As AI becomes more and more prominent I believe that current issues in the industry such as layoffs due to “mergers and acquisitions” (Kim, 2023) Trend counties to increase
 
 ![image](https://github.com/user-attachments/assets/732a854b-9bdc-41a5-8974-4f8b634841f8)(Statista, n.d.)
 
@@ -160,6 +160,8 @@ Bird, F. (2014). Salient PR. [online] Salient PR. Available at: https://salientp
 
 Dredge, S. (2014). Apple ban on Flappy Bird clones? Don’t tell Slappy Shark or Floppy Penguin. [online] the Guardian. Available at: https://www.theguardian.com/technology/2014/feb/17/flappy-bird-clones-apple-google [Accessed 21 Sep. 2024].
 
+Kim, M. (2023). The Axe Drops on Gaming’s Acquisitions Gold Rush - IGN. [online] IGN. Available at: https://www.ign.com/articles/2023-video-games-layoffs-mergers-acquisitions-bungie [Accessed 23 Sep. 2024].
+
 dialogic-godot (2024). GitHub - dialogic-godot/dialogic: 💬 Create Dialogs, Visual Novels, RPGs, and manage Characters with Godot to create your Game! [online] GitHub. Available at: https://github.com/dialogic-godot/dialogic.[Accessed 20 Sep. 2024].
 
 Godot Engine documentation. (2024). CharacterBody2D. [online] Available at: https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html#:~:text=moved%20by%20script.- [Accessed 19 Sep. 2024].
@@ -174,4 +176,3 @@ Long, N. (2022). Fall Guys clone Stumble Guys tops charts, racks up $21m+ revenu
 
 Statista. (n.d.). Gaming layoffs worldwide 2024. [online] Available at: https://www.statista.com/statistics/1458214/worldwide-gaming-industry-layoffs/.[Accessed 22 Sep. 2024].
 
-‌Wikipedia Contributors (2024). 2023–2024 video game industry layoffs. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/2023%E2%80%932024_video_game_industry_layoffs#:~:text=One%20of%20the%20primary%20reasons [Accessed 22 Sep. 2024].
