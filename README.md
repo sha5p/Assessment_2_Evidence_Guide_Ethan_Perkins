@@ -28,7 +28,7 @@ The first game the mini-game designed a ‘player’ by referring to the mouse v
 		elif $CurrentChracter.flip_h == false:
 			velocity.x = dashing* (Engine.time_scale / original_time_scale))
 ```
-A design for changing velocity was done so that Godot's physics engine could run all the logic for movement. These changes were necessary not only for immersion but also as the primary action in each of the games. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen to have a variety. If this assessment were to be re-assigned then constant references to variables  
+A design for changing velocity was done so that Godot's physics engine could run all the logic for movement. These changes were necessary not only for immersion but also as the primary action in each of the games. However, the [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/SaveStates_Sword.gd) lacked variety for the user so alternatively I would have altered it by changing particles or sound to immerse the user. Because of this, the next assessment's [weapon](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Player%20Design/Dialogue_Weapon.gd) allowed for multiple different weapons to be chosen to have a variety. If this assessment were to be re-assigned then constant references to variables such as below would have instead used loops for fewer lines.
 ```
 	if Global.item[0]["Weapon"] =="LMG":
 			timer.wait_time=Global.items[4]["FireRate"]
@@ -41,7 +41,7 @@ A design for changing velocity was done so that Godot's physics engine could run
 			rail_gun.visible=false
 			bazoka.visible=false
 ```
-would have instead used loops for fewer lines however due to time constraints this was not done. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the environment to further increase immersion for the user.
+Due to time constraints looping through was not done as I considered it an elective choice. For future assignments, I would look to design a player that not only contains variety in movement and attack to immerse the player but also to design the players based on the environment to further increase immersion for the user.
 
 ### [Level Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
