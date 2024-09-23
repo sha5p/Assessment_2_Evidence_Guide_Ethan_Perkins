@@ -45,7 +45,7 @@ Due to time constraints looping through was not done as I considered it an elect
 
 ### [Level Design](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main/Design/Level%20Design)
 
-The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented with along with the theme of the maps. The mini-game incorporated a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) its main assets are shown below.
+The design of levels goes hand in hand with player design to immerse the player into the game. The core component of level design is the obstacles/enemies the user is presented with along with the theme of the maps. The mini-game incorporates a simple space [theme](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md); its main assets are shown below.
 
 ![image](https://github.com/user-attachments/assets/198e1bec-3f0d-4e01-bcb5-ac86a955bd82)
 
@@ -65,7 +65,7 @@ The mini-game was designed around a [spawning](https://github.com/sha5p/Assessme
 		if (pathFollow == null)
 ```
 Upon reflection the spawning system's design should have been altered to increase the amount of meteors spawned in increments rather than a constant rate. Additionally, the movement of the meteors should have been changed from 
-```Vector2 centerPosition = new Vector2(576, 324); ``` getting a reference to referring to the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprite [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) remains constant throughout each assessment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player	indicated below.
+```Vector2 centerPosition = new Vector2(576, 324); ``` getting a reference to referring to the player ```Vector2 centerPosition = GlobalRefrenceToPlayer.Position; ``` for changeability. The use of sprite [themes](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/blob/main/Design/Level%20Design/Level_Design_Evidence.md) remains constant throughout each assessment. However, the design of obstacles/enemies evolved to further immerse the player. For example, enemies in the saved state's assessment used detection to attack the player indicated below.
 ```
 if attack and $RayCast2D.is_colliding():
 		#Moves in the direction of player based on save state speed
@@ -131,14 +131,14 @@ Presenting and analysing data throughout each assessment changed through assessm
 
 ![image](https://github.com/user-attachments/assets/0998052a-baa8-4260-8095-316669c373d9)
 
-In this assessment, my teacher suggested to improve upon the following.
+In this assessment, my teacher suggested improving upon the following.
 
 ![image](https://github.com/user-attachments/assets/0ae9f164-b2c9-4782-acc3-7d81f5ba71ce)
 
 And so for the save states assignment, every form of presentation outside of the documentation was linked for readability much like in this [repository](https://github.com/sha5p/Assessment_2_Evidence_Guide_Ethan_Perkins/tree/main). 
 
 ![image](https://github.com/user-attachments/assets/b4bb8790-43fd-4328-8d57-23fc9929ca63)
-Feedback from the most recent assessment highlights an issue in that was further identified in this assessment in that though recording data and presenting it is important how it is recorded is just as an important topic.
+Feedback from the most recent assessment highlights an issue that was further identified in this assessment in that though recording data and presenting it is important, how it is recorded is just as important.
 
 ![image](https://github.com/user-attachments/assets/4cffe50b-b062-4c6f-9dba-e892bb086d04)
 
